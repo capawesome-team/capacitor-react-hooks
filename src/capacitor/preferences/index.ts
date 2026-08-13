@@ -11,7 +11,7 @@ export interface UsePreferenceResult {
   remove: () => Promise<void>;
 }
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const usePreferences = createMethodsHook('Preferences', Preferences, [
   'configure',
   'get',

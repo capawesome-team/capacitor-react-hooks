@@ -3,7 +3,7 @@ import { SystemBars } from '@capacitor/core';
 import { createMethodsHook } from '../../core';
 
 /**
- * Plugin methods plus `isAvailable`.
+ * Plugin methods plus `isPluginAvailable`.
  *
  * `SystemBars` controls the status bar and the navigation bar. It is the
  * successor of the status bar plugin and ships with `@capacitor/core`, so no

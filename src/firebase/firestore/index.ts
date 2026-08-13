@@ -34,7 +34,7 @@ export interface UseCollectionSnapshotResult<T> {
   error: Error | undefined;
 }
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useFirebaseFirestore = createMethodsHook('FirebaseFirestore', FirebaseFirestore, [
   'addDocument',
   'deleteDocument',

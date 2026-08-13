@@ -4,7 +4,7 @@ import { LocalNotifications } from '@capacitor/local-notifications';
 import { createMethodsHook, createPermissionsHook, usePluginListener } from '../../core';
 import type { ListenerOptions } from '../../core';
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useLocalNotifications = createMethodsHook('LocalNotifications', LocalNotifications, [
   'schedule',
   'getPending',

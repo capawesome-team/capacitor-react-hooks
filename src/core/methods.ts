@@ -15,13 +15,15 @@ export function useIsPluginAvailable(pluginName: string): boolean | undefined {
 
 /**
  * Creates the uniform `useX()` entry hook for a plugin: a referentially stable
- * object with the listed plugin methods plus `isAvailable`.
+ * object with the listed plugin methods plus `isPluginAvailable`. The flag is
+ * named `isPluginAvailable` so it never shadows a plugin's own `isAvailable()`
+ * method.
  */
 export function createMethodsHook<TPlugin, TKeys extends keyof TPlugin>(
   pluginName: string,
   plugin: TPlugin,
   methodNames: readonly TKeys[],
-): () => Pick<TPlugin, TKeys> & { isAvailable: boolean | undefined } {
+): () => Pick<TPlugin, TKeys> & { isPluginAvailable: boolean | undefined } {
   return function useMethods() {
     const methods = useMemo(() => {
       const bound = {} as Pick<TPlugin, TKeys>;
@@ -32,7 +34,7 @@ export function createMethodsHook<TPlugin, TKeys extends keyof TPlugin>(
       }
       return bound;
     }, []);
-    const isAvailable = useIsPluginAvailable(pluginName);
-    return useMemo(() => ({ ...methods, isAvailable }), [methods, isAvailable]);
+    const isPluginAvailable = useIsPluginAvailable(pluginName);
+    return useMemo(() => ({ ...methods, isPluginAvailable }), [methods, isPluginAvailable]);
   };
 }

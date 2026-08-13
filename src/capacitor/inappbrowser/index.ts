@@ -4,7 +4,7 @@ import { InAppBrowser } from '@capacitor/inappbrowser';
 import { createMethodsHook, usePluginListener } from '../../core';
 import type { ListenerOptions } from '../../core';
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useInAppBrowser = createMethodsHook('InAppBrowser', InAppBrowser, [
   'openInWebView',
   'openInSystemBrowser',

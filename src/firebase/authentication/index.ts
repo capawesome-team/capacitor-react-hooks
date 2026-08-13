@@ -15,7 +15,7 @@ import {
 } from '../../core';
 import type { ListenerOptions } from '../../core';
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useFirebaseAuthentication = createMethodsHook(
   'FirebaseAuthentication',
   FirebaseAuthentication,

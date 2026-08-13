@@ -5,7 +5,7 @@ import { createMethodsHook, usePluginListener } from '../../core';
 import type { ListenerOptions } from '../../core';
 
 /**
- * Plugin methods plus `isAvailable`. The plugin has no web implementation:
+ * Plugin methods plus `isPluginAvailable`. The plugin has no web implementation:
  * check `isAvailable` before calling any method.
  */
 export const useStatusBar = createMethodsHook('StatusBar', StatusBar, [

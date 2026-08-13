@@ -2,7 +2,7 @@ import { FileViewer } from '@capacitor/file-viewer';
 
 import { createMethodsHook } from '../../core';
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useFileViewer = createMethodsHook('FileViewer', FileViewer, [
   'openDocumentFromLocalPath',
   'openDocumentFromResources',

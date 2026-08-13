@@ -9,7 +9,7 @@ import {
 } from '../../core';
 import type { ListenerOptions } from '../../core';
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useNetwork = createMethodsHook('Network', Network, ['getStatus']);
 
 /**

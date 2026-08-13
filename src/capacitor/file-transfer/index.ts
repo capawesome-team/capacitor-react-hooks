@@ -4,7 +4,7 @@ import { FileTransfer } from '@capacitor/file-transfer';
 import { createMethodsHook, usePluginListener } from '../../core';
 import type { ListenerOptions } from '../../core';
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useFileTransfer = createMethodsHook('FileTransfer', FileTransfer, [
   'downloadFile',
   'uploadFile',

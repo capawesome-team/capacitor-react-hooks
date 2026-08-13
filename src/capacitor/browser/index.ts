@@ -3,7 +3,7 @@ import { Browser } from '@capacitor/browser';
 import { createMethodsHook, usePluginListener } from '../../core';
 import type { ListenerOptions } from '../../core';
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useBrowser = createMethodsHook('Browser', Browser, ['open', 'close']);
 
 /** Invokes `callback` when the browser is closed by the user. */

@@ -2,7 +2,7 @@ import { Camera } from '@capacitor/camera';
 
 import { createMethodsHook, createPermissionsHook } from '../../core';
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useCamera = createMethodsHook('Camera', Camera, [
   'takePhoto',
   'recordVideo',

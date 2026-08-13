@@ -15,7 +15,7 @@ export interface KeyboardState {
   height: number;
 }
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useKeyboard = createMethodsHook('Keyboard', Keyboard, [
   'show',
   'hide',

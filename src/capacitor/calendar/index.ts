@@ -2,7 +2,7 @@ import { Calendar } from '@capacitor/calendar';
 
 import { createMethodsHook, createPermissionsHook } from '../../core';
 
-/** Plugin methods plus `isAvailable`. Only available on Android and iOS. */
+/** Plugin methods plus `isPluginAvailable`. Only available on Android and iOS. */
 export const useCalendar = createMethodsHook('Calendar', Calendar, [
   'createEvent',
   'createEventInteractively',

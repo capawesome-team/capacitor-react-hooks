@@ -21,6 +21,6 @@ describe('createMethodsHook', () => {
   it('reports availability from the Capacitor plugin registry', async () => {
     const useMethods = createMethodsHook('UnregisteredPlugin', {}, []);
     const { result } = renderHook(() => useMethods(), { wrapper: StrictModeWrapper });
-    await waitFor(() => expect(result.current.isAvailable).toBe(false));
+    await waitFor(() => expect(result.current.isPluginAvailable).toBe(false));
   });
 });

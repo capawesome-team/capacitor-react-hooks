@@ -17,7 +17,7 @@ import type { ListenerOptions } from '../../core';
 
 const discardStopError = () => undefined;
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useBarcodeScanning = createMethodsHook('BarcodeScanner', BarcodeScanner, [
   'startScan',
   'stopScan',

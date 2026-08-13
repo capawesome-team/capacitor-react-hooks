@@ -5,7 +5,7 @@ import { createMethodsHook, createPermissionsHook, usePluginListener } from '../
 import type { ListenerOptions } from '../../core';
 
 /**
- * Plugin methods plus `isAvailable`.
+ * Plugin methods plus `isPluginAvailable`.
  *
  * The runner JavaScript executes outside the webview in its own context, so
  * this hook only covers the bridge surface: dispatching events to the runner

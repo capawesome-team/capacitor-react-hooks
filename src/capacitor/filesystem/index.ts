@@ -2,7 +2,7 @@ import { Filesystem } from '@capacitor/filesystem';
 
 import { createMethodsHook, createPermissionsHook } from '../../core';
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useFilesystem = createMethodsHook('Filesystem', Filesystem, [
   'readFile',
   'readFileInChunks',

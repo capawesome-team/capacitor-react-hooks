@@ -10,7 +10,7 @@ const packageJsonPath = join(packageDir, 'package.json');
 const packageJson = JSON.parse(readFileSync(packageJsonPath, 'utf8'));
 
 const isPlugin = name =>
-  /^@capacitor(-firebase|-mlkit)?\//.test(name) || name.startsWith('@capawesome-team/');
+  /^@capacitor(-firebase|-mlkit)?\//.test(name) || /^@capawesome(-team)?\/capacitor-/.test(name);
 
 const peers = { '@capacitor/core': '>=8.0.0', react: '^18.0.0 || ^19.0.0' };
 const meta = {};

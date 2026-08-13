@@ -17,7 +17,7 @@ export interface UsePushTokenResult {
   register: () => Promise<void>;
 }
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const usePushNotifications = createMethodsHook('PushNotifications', PushNotifications, [
   'register',
   'unregister',

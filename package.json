@@ -378,6 +378,896 @@
         "default": "./dist/capacitor/toast/index.cjs"
       }
     },
+    "./capawesome/accessibility-preferences": {
+      "import": {
+        "types": "./dist/capawesome/accessibility-preferences/index.d.ts",
+        "default": "./dist/capawesome/accessibility-preferences/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/accessibility-preferences/index.d.cts",
+        "default": "./dist/capawesome/accessibility-preferences/index.cjs"
+      }
+    },
+    "./capawesome/action-sheet": {
+      "import": {
+        "types": "./dist/capawesome/action-sheet/index.d.ts",
+        "default": "./dist/capawesome/action-sheet/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/action-sheet/index.d.cts",
+        "default": "./dist/capawesome/action-sheet/index.cjs"
+      }
+    },
+    "./capawesome/age-signals": {
+      "import": {
+        "types": "./dist/capawesome/age-signals/index.d.ts",
+        "default": "./dist/capawesome/age-signals/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/age-signals/index.d.cts",
+        "default": "./dist/capawesome/age-signals/index.cjs"
+      }
+    },
+    "./capawesome/alarm": {
+      "import": {
+        "types": "./dist/capawesome/alarm/index.d.ts",
+        "default": "./dist/capawesome/alarm/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/alarm/index.d.cts",
+        "default": "./dist/capawesome/alarm/index.cjs"
+      }
+    },
+    "./capawesome/android-battery-optimization": {
+      "import": {
+        "types": "./dist/capawesome/android-battery-optimization/index.d.ts",
+        "default": "./dist/capawesome/android-battery-optimization/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/android-battery-optimization/index.d.cts",
+        "default": "./dist/capawesome/android-battery-optimization/index.cjs"
+      }
+    },
+    "./capawesome/android-edge-to-edge-support": {
+      "import": {
+        "types": "./dist/capawesome/android-edge-to-edge-support/index.d.ts",
+        "default": "./dist/capawesome/android-edge-to-edge-support/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/android-edge-to-edge-support/index.d.cts",
+        "default": "./dist/capawesome/android-edge-to-edge-support/index.cjs"
+      }
+    },
+    "./capawesome/android-foreground-service": {
+      "import": {
+        "types": "./dist/capawesome/android-foreground-service/index.d.ts",
+        "default": "./dist/capawesome/android-foreground-service/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/android-foreground-service/index.d.cts",
+        "default": "./dist/capawesome/android-foreground-service/index.cjs"
+      }
+    },
+    "./capawesome/android-intent-launcher": {
+      "import": {
+        "types": "./dist/capawesome/android-intent-launcher/index.d.ts",
+        "default": "./dist/capawesome/android-intent-launcher/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/android-intent-launcher/index.d.cts",
+        "default": "./dist/capawesome/android-intent-launcher/index.cjs"
+      }
+    },
+    "./capawesome/android-sms-retriever": {
+      "import": {
+        "types": "./dist/capawesome/android-sms-retriever/index.d.ts",
+        "default": "./dist/capawesome/android-sms-retriever/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/android-sms-retriever/index.d.cts",
+        "default": "./dist/capawesome/android-sms-retriever/index.cjs"
+      }
+    },
+    "./capawesome/app-icon": {
+      "import": {
+        "types": "./dist/capawesome/app-icon/index.d.ts",
+        "default": "./dist/capawesome/app-icon/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/app-icon/index.d.cts",
+        "default": "./dist/capawesome/app-icon/index.cjs"
+      }
+    },
+    "./capawesome/app-integrity": {
+      "import": {
+        "types": "./dist/capawesome/app-integrity/index.d.ts",
+        "default": "./dist/capawesome/app-integrity/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/app-integrity/index.d.cts",
+        "default": "./dist/capawesome/app-integrity/index.cjs"
+      }
+    },
+    "./capawesome/app-language": {
+      "import": {
+        "types": "./dist/capawesome/app-language/index.d.ts",
+        "default": "./dist/capawesome/app-language/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/app-language/index.d.cts",
+        "default": "./dist/capawesome/app-language/index.cjs"
+      }
+    },
+    "./capawesome/app-launcher": {
+      "import": {
+        "types": "./dist/capawesome/app-launcher/index.d.ts",
+        "default": "./dist/capawesome/app-launcher/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/app-launcher/index.d.cts",
+        "default": "./dist/capawesome/app-launcher/index.cjs"
+      }
+    },
+    "./capawesome/app-review": {
+      "import": {
+        "types": "./dist/capawesome/app-review/index.d.ts",
+        "default": "./dist/capawesome/app-review/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/app-review/index.d.cts",
+        "default": "./dist/capawesome/app-review/index.cjs"
+      }
+    },
+    "./capawesome/app-shortcuts": {
+      "import": {
+        "types": "./dist/capawesome/app-shortcuts/index.d.ts",
+        "default": "./dist/capawesome/app-shortcuts/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/app-shortcuts/index.d.cts",
+        "default": "./dist/capawesome/app-shortcuts/index.cjs"
+      }
+    },
+    "./capawesome/app-tracking-transparency": {
+      "import": {
+        "types": "./dist/capawesome/app-tracking-transparency/index.d.ts",
+        "default": "./dist/capawesome/app-tracking-transparency/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/app-tracking-transparency/index.d.cts",
+        "default": "./dist/capawesome/app-tracking-transparency/index.cjs"
+      }
+    },
+    "./capawesome/app-update": {
+      "import": {
+        "types": "./dist/capawesome/app-update/index.d.ts",
+        "default": "./dist/capawesome/app-update/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/app-update/index.d.cts",
+        "default": "./dist/capawesome/app-update/index.cjs"
+      }
+    },
+    "./capawesome/apple-sign-in": {
+      "import": {
+        "types": "./dist/capawesome/apple-sign-in/index.d.ts",
+        "default": "./dist/capawesome/apple-sign-in/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/apple-sign-in/index.d.cts",
+        "default": "./dist/capawesome/apple-sign-in/index.cjs"
+      }
+    },
+    "./capawesome/asset-manager": {
+      "import": {
+        "types": "./dist/capawesome/asset-manager/index.d.ts",
+        "default": "./dist/capawesome/asset-manager/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/asset-manager/index.d.cts",
+        "default": "./dist/capawesome/asset-manager/index.cjs"
+      }
+    },
+    "./capawesome/audio-session": {
+      "import": {
+        "types": "./dist/capawesome/audio-session/index.d.ts",
+        "default": "./dist/capawesome/audio-session/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/audio-session/index.d.cts",
+        "default": "./dist/capawesome/audio-session/index.cjs"
+      }
+    },
+    "./capawesome/background-task": {
+      "import": {
+        "types": "./dist/capawesome/background-task/index.d.ts",
+        "default": "./dist/capawesome/background-task/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/background-task/index.d.cts",
+        "default": "./dist/capawesome/background-task/index.cjs"
+      }
+    },
+    "./capawesome/badge": {
+      "import": {
+        "types": "./dist/capawesome/badge/index.d.ts",
+        "default": "./dist/capawesome/badge/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/badge/index.d.cts",
+        "default": "./dist/capawesome/badge/index.cjs"
+      }
+    },
+    "./capawesome/battery": {
+      "import": {
+        "types": "./dist/capawesome/battery/index.d.ts",
+        "default": "./dist/capawesome/battery/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/battery/index.d.cts",
+        "default": "./dist/capawesome/battery/index.cjs"
+      }
+    },
+    "./capawesome/clipboard": {
+      "import": {
+        "types": "./dist/capawesome/clipboard/index.d.ts",
+        "default": "./dist/capawesome/clipboard/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/clipboard/index.d.cts",
+        "default": "./dist/capawesome/clipboard/index.cjs"
+      }
+    },
+    "./capawesome/cloudinary": {
+      "import": {
+        "types": "./dist/capawesome/cloudinary/index.d.ts",
+        "default": "./dist/capawesome/cloudinary/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/cloudinary/index.d.cts",
+        "default": "./dist/capawesome/cloudinary/index.cjs"
+      }
+    },
+    "./capawesome/compass": {
+      "import": {
+        "types": "./dist/capawesome/compass/index.d.ts",
+        "default": "./dist/capawesome/compass/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/compass/index.d.cts",
+        "default": "./dist/capawesome/compass/index.cjs"
+      }
+    },
+    "./capawesome/crisp": {
+      "import": {
+        "types": "./dist/capawesome/crisp/index.d.ts",
+        "default": "./dist/capawesome/crisp/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/crisp/index.d.cts",
+        "default": "./dist/capawesome/crisp/index.cjs"
+      }
+    },
+    "./capawesome/datetime-picker": {
+      "import": {
+        "types": "./dist/capawesome/datetime-picker/index.d.ts",
+        "default": "./dist/capawesome/datetime-picker/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/datetime-picker/index.d.cts",
+        "default": "./dist/capawesome/datetime-picker/index.cjs"
+      }
+    },
+    "./capawesome/device-info": {
+      "import": {
+        "types": "./dist/capawesome/device-info/index.d.ts",
+        "default": "./dist/capawesome/device-info/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/device-info/index.d.cts",
+        "default": "./dist/capawesome/device-info/index.cjs"
+      }
+    },
+    "./capawesome/dialog": {
+      "import": {
+        "types": "./dist/capawesome/dialog/index.d.ts",
+        "default": "./dist/capawesome/dialog/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/dialog/index.d.cts",
+        "default": "./dist/capawesome/dialog/index.cjs"
+      }
+    },
+    "./capawesome/exif": {
+      "import": {
+        "types": "./dist/capawesome/exif/index.d.ts",
+        "default": "./dist/capawesome/exif/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/exif/index.d.cts",
+        "default": "./dist/capawesome/exif/index.cjs"
+      }
+    },
+    "./capawesome/facebook-sign-in": {
+      "import": {
+        "types": "./dist/capawesome/facebook-sign-in/index.d.ts",
+        "default": "./dist/capawesome/facebook-sign-in/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/facebook-sign-in/index.d.cts",
+        "default": "./dist/capawesome/facebook-sign-in/index.cjs"
+      }
+    },
+    "./capawesome/file-opener": {
+      "import": {
+        "types": "./dist/capawesome/file-opener/index.d.ts",
+        "default": "./dist/capawesome/file-opener/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/file-opener/index.d.cts",
+        "default": "./dist/capawesome/file-opener/index.cjs"
+      }
+    },
+    "./capawesome/file-picker": {
+      "import": {
+        "types": "./dist/capawesome/file-picker/index.d.ts",
+        "default": "./dist/capawesome/file-picker/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/file-picker/index.d.cts",
+        "default": "./dist/capawesome/file-picker/index.cjs"
+      }
+    },
+    "./capawesome/formbricks": {
+      "import": {
+        "types": "./dist/capawesome/formbricks/index.d.ts",
+        "default": "./dist/capawesome/formbricks/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/formbricks/index.d.cts",
+        "default": "./dist/capawesome/formbricks/index.cjs"
+      }
+    },
+    "./capawesome/google-sign-in": {
+      "import": {
+        "types": "./dist/capawesome/google-sign-in/index.d.ts",
+        "default": "./dist/capawesome/google-sign-in/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/google-sign-in/index.d.cts",
+        "default": "./dist/capawesome/google-sign-in/index.cjs"
+      }
+    },
+    "./capawesome/grafana-faro": {
+      "import": {
+        "types": "./dist/capawesome/grafana-faro/index.d.ts",
+        "default": "./dist/capawesome/grafana-faro/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/grafana-faro/index.d.cts",
+        "default": "./dist/capawesome/grafana-faro/index.cjs"
+      }
+    },
+    "./capawesome/gyroscope": {
+      "import": {
+        "types": "./dist/capawesome/gyroscope/index.d.ts",
+        "default": "./dist/capawesome/gyroscope/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/gyroscope/index.d.cts",
+        "default": "./dist/capawesome/gyroscope/index.cjs"
+      }
+    },
+    "./capawesome/haptics": {
+      "import": {
+        "types": "./dist/capawesome/haptics/index.d.ts",
+        "default": "./dist/capawesome/haptics/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/haptics/index.d.cts",
+        "default": "./dist/capawesome/haptics/index.cjs"
+      }
+    },
+    "./capawesome/home-indicator": {
+      "import": {
+        "types": "./dist/capawesome/home-indicator/index.d.ts",
+        "default": "./dist/capawesome/home-indicator/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/home-indicator/index.d.cts",
+        "default": "./dist/capawesome/home-indicator/index.cjs"
+      }
+    },
+    "./capawesome/in-app-browser": {
+      "import": {
+        "types": "./dist/capawesome/in-app-browser/index.d.ts",
+        "default": "./dist/capawesome/in-app-browser/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/in-app-browser/index.d.cts",
+        "default": "./dist/capawesome/in-app-browser/index.cjs"
+      }
+    },
+    "./capawesome/install-referrer": {
+      "import": {
+        "types": "./dist/capawesome/install-referrer/index.d.ts",
+        "default": "./dist/capawesome/install-referrer/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/install-referrer/index.d.cts",
+        "default": "./dist/capawesome/install-referrer/index.cjs"
+      }
+    },
+    "./capawesome/intercom": {
+      "import": {
+        "types": "./dist/capawesome/intercom/index.d.ts",
+        "default": "./dist/capawesome/intercom/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/intercom/index.d.cts",
+        "default": "./dist/capawesome/intercom/index.cjs"
+      }
+    },
+    "./capawesome/intune": {
+      "import": {
+        "types": "./dist/capawesome/intune/index.d.ts",
+        "default": "./dist/capawesome/intune/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/intune/index.d.cts",
+        "default": "./dist/capawesome/intune/index.cjs"
+      }
+    },
+    "./capawesome/keep-awake": {
+      "import": {
+        "types": "./dist/capawesome/keep-awake/index.d.ts",
+        "default": "./dist/capawesome/keep-awake/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/keep-awake/index.d.cts",
+        "default": "./dist/capawesome/keep-awake/index.cjs"
+      }
+    },
+    "./capawesome/libsql": {
+      "import": {
+        "types": "./dist/capawesome/libsql/index.d.ts",
+        "default": "./dist/capawesome/libsql/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/libsql/index.d.cts",
+        "default": "./dist/capawesome/libsql/index.cjs"
+      }
+    },
+    "./capawesome/light-sensor": {
+      "import": {
+        "types": "./dist/capawesome/light-sensor/index.d.ts",
+        "default": "./dist/capawesome/light-sensor/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/light-sensor/index.d.cts",
+        "default": "./dist/capawesome/light-sensor/index.cjs"
+      }
+    },
+    "./capawesome/live-update": {
+      "import": {
+        "types": "./dist/capawesome/live-update/index.d.ts",
+        "default": "./dist/capawesome/live-update/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/live-update/index.d.cts",
+        "default": "./dist/capawesome/live-update/index.cjs"
+      }
+    },
+    "./capawesome/localization": {
+      "import": {
+        "types": "./dist/capawesome/localization/index.d.ts",
+        "default": "./dist/capawesome/localization/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/localization/index.d.cts",
+        "default": "./dist/capawesome/localization/index.cjs"
+      }
+    },
+    "./capawesome/mail-composer": {
+      "import": {
+        "types": "./dist/capawesome/mail-composer/index.d.ts",
+        "default": "./dist/capawesome/mail-composer/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/mail-composer/index.d.cts",
+        "default": "./dist/capawesome/mail-composer/index.cjs"
+      }
+    },
+    "./capawesome/managed-configurations": {
+      "import": {
+        "types": "./dist/capawesome/managed-configurations/index.d.ts",
+        "default": "./dist/capawesome/managed-configurations/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/managed-configurations/index.d.cts",
+        "default": "./dist/capawesome/managed-configurations/index.cjs"
+      }
+    },
+    "./capawesome/maps-launcher": {
+      "import": {
+        "types": "./dist/capawesome/maps-launcher/index.d.ts",
+        "default": "./dist/capawesome/maps-launcher/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/maps-launcher/index.d.cts",
+        "default": "./dist/capawesome/maps-launcher/index.cjs"
+      }
+    },
+    "./capawesome/navigation-bar": {
+      "import": {
+        "types": "./dist/capawesome/navigation-bar/index.d.ts",
+        "default": "./dist/capawesome/navigation-bar/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/navigation-bar/index.d.cts",
+        "default": "./dist/capawesome/navigation-bar/index.cjs"
+      }
+    },
+    "./capawesome/network": {
+      "import": {
+        "types": "./dist/capawesome/network/index.d.ts",
+        "default": "./dist/capawesome/network/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/network/index.d.cts",
+        "default": "./dist/capawesome/network/index.cjs"
+      }
+    },
+    "./capawesome/nodejs": {
+      "import": {
+        "types": "./dist/capawesome/nodejs/index.d.ts",
+        "default": "./dist/capawesome/nodejs/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/nodejs/index.d.cts",
+        "default": "./dist/capawesome/nodejs/index.cjs"
+      }
+    },
+    "./capawesome/passkeys": {
+      "import": {
+        "types": "./dist/capawesome/passkeys/index.d.ts",
+        "default": "./dist/capawesome/passkeys/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/passkeys/index.d.cts",
+        "default": "./dist/capawesome/passkeys/index.cjs"
+      }
+    },
+    "./capawesome/password-autofill": {
+      "import": {
+        "types": "./dist/capawesome/password-autofill/index.d.ts",
+        "default": "./dist/capawesome/password-autofill/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/password-autofill/index.d.cts",
+        "default": "./dist/capawesome/password-autofill/index.cjs"
+      }
+    },
+    "./capawesome/pdf-generator": {
+      "import": {
+        "types": "./dist/capawesome/pdf-generator/index.d.ts",
+        "default": "./dist/capawesome/pdf-generator/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/pdf-generator/index.d.cts",
+        "default": "./dist/capawesome/pdf-generator/index.cjs"
+      }
+    },
+    "./capawesome/pdf-viewer": {
+      "import": {
+        "types": "./dist/capawesome/pdf-viewer/index.d.ts",
+        "default": "./dist/capawesome/pdf-viewer/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/pdf-viewer/index.d.cts",
+        "default": "./dist/capawesome/pdf-viewer/index.cjs"
+      }
+    },
+    "./capawesome/permissions": {
+      "import": {
+        "types": "./dist/capawesome/permissions/index.d.ts",
+        "default": "./dist/capawesome/permissions/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/permissions/index.d.cts",
+        "default": "./dist/capawesome/permissions/index.cjs"
+      }
+    },
+    "./capawesome/phone-dialer": {
+      "import": {
+        "types": "./dist/capawesome/phone-dialer/index.d.ts",
+        "default": "./dist/capawesome/phone-dialer/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/phone-dialer/index.d.cts",
+        "default": "./dist/capawesome/phone-dialer/index.cjs"
+      }
+    },
+    "./capawesome/photo-editor": {
+      "import": {
+        "types": "./dist/capawesome/photo-editor/index.d.ts",
+        "default": "./dist/capawesome/photo-editor/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/photo-editor/index.d.cts",
+        "default": "./dist/capawesome/photo-editor/index.cjs"
+      }
+    },
+    "./capawesome/photo-manipulator": {
+      "import": {
+        "types": "./dist/capawesome/photo-manipulator/index.d.ts",
+        "default": "./dist/capawesome/photo-manipulator/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/photo-manipulator/index.d.cts",
+        "default": "./dist/capawesome/photo-manipulator/index.cjs"
+      }
+    },
+    "./capawesome/pixlive": {
+      "import": {
+        "types": "./dist/capawesome/pixlive/index.d.ts",
+        "default": "./dist/capawesome/pixlive/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/pixlive/index.d.cts",
+        "default": "./dist/capawesome/pixlive/index.cjs"
+      }
+    },
+    "./capawesome/posthog": {
+      "import": {
+        "types": "./dist/capawesome/posthog/index.d.ts",
+        "default": "./dist/capawesome/posthog/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/posthog/index.d.cts",
+        "default": "./dist/capawesome/posthog/index.cjs"
+      }
+    },
+    "./capawesome/privacy-screen": {
+      "import": {
+        "types": "./dist/capawesome/privacy-screen/index.d.ts",
+        "default": "./dist/capawesome/privacy-screen/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/privacy-screen/index.d.cts",
+        "default": "./dist/capawesome/privacy-screen/index.cjs"
+      }
+    },
+    "./capawesome/proximity-sensor": {
+      "import": {
+        "types": "./dist/capawesome/proximity-sensor/index.d.ts",
+        "default": "./dist/capawesome/proximity-sensor/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/proximity-sensor/index.d.cts",
+        "default": "./dist/capawesome/proximity-sensor/index.cjs"
+      }
+    },
+    "./capawesome/realtimekit": {
+      "import": {
+        "types": "./dist/capawesome/realtimekit/index.d.ts",
+        "default": "./dist/capawesome/realtimekit/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/realtimekit/index.d.cts",
+        "default": "./dist/capawesome/realtimekit/index.cjs"
+      }
+    },
+    "./capawesome/root-detection": {
+      "import": {
+        "types": "./dist/capawesome/root-detection/index.d.ts",
+        "default": "./dist/capawesome/root-detection/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/root-detection/index.d.cts",
+        "default": "./dist/capawesome/root-detection/index.cjs"
+      }
+    },
+    "./capawesome/screen-brightness": {
+      "import": {
+        "types": "./dist/capawesome/screen-brightness/index.d.ts",
+        "default": "./dist/capawesome/screen-brightness/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/screen-brightness/index.d.cts",
+        "default": "./dist/capawesome/screen-brightness/index.cjs"
+      }
+    },
+    "./capawesome/screen-orientation": {
+      "import": {
+        "types": "./dist/capawesome/screen-orientation/index.d.ts",
+        "default": "./dist/capawesome/screen-orientation/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/screen-orientation/index.d.cts",
+        "default": "./dist/capawesome/screen-orientation/index.cjs"
+      }
+    },
+    "./capawesome/screen-reader": {
+      "import": {
+        "types": "./dist/capawesome/screen-reader/index.d.ts",
+        "default": "./dist/capawesome/screen-reader/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/screen-reader/index.d.cts",
+        "default": "./dist/capawesome/screen-reader/index.cjs"
+      }
+    },
+    "./capawesome/screenshot": {
+      "import": {
+        "types": "./dist/capawesome/screenshot/index.d.ts",
+        "default": "./dist/capawesome/screenshot/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/screenshot/index.d.cts",
+        "default": "./dist/capawesome/screenshot/index.cjs"
+      }
+    },
+    "./capawesome/settings-launcher": {
+      "import": {
+        "types": "./dist/capawesome/settings-launcher/index.d.ts",
+        "default": "./dist/capawesome/settings-launcher/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/settings-launcher/index.d.cts",
+        "default": "./dist/capawesome/settings-launcher/index.cjs"
+      }
+    },
+    "./capawesome/shake": {
+      "import": {
+        "types": "./dist/capawesome/shake/index.d.ts",
+        "default": "./dist/capawesome/shake/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/shake/index.d.cts",
+        "default": "./dist/capawesome/shake/index.cjs"
+      }
+    },
+    "./capawesome/silent-mode": {
+      "import": {
+        "types": "./dist/capawesome/silent-mode/index.d.ts",
+        "default": "./dist/capawesome/silent-mode/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/silent-mode/index.d.cts",
+        "default": "./dist/capawesome/silent-mode/index.cjs"
+      }
+    },
+    "./capawesome/sim": {
+      "import": {
+        "types": "./dist/capawesome/sim/index.d.ts",
+        "default": "./dist/capawesome/sim/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/sim/index.d.cts",
+        "default": "./dist/capawesome/sim/index.cjs"
+      }
+    },
+    "./capawesome/sms-composer": {
+      "import": {
+        "types": "./dist/capawesome/sms-composer/index.d.ts",
+        "default": "./dist/capawesome/sms-composer/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/sms-composer/index.d.cts",
+        "default": "./dist/capawesome/sms-composer/index.cjs"
+      }
+    },
+    "./capawesome/square-mobile-payments": {
+      "import": {
+        "types": "./dist/capawesome/square-mobile-payments/index.d.ts",
+        "default": "./dist/capawesome/square-mobile-payments/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/square-mobile-payments/index.d.cts",
+        "default": "./dist/capawesome/square-mobile-payments/index.cjs"
+      }
+    },
+    "./capawesome/superwall": {
+      "import": {
+        "types": "./dist/capawesome/superwall/index.d.ts",
+        "default": "./dist/capawesome/superwall/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/superwall/index.d.cts",
+        "default": "./dist/capawesome/superwall/index.cjs"
+      }
+    },
+    "./capawesome/system-webview": {
+      "import": {
+        "types": "./dist/capawesome/system-webview/index.d.ts",
+        "default": "./dist/capawesome/system-webview/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/system-webview/index.d.cts",
+        "default": "./dist/capawesome/system-webview/index.cjs"
+      }
+    },
+    "./capawesome/text-interaction": {
+      "import": {
+        "types": "./dist/capawesome/text-interaction/index.d.ts",
+        "default": "./dist/capawesome/text-interaction/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/text-interaction/index.d.cts",
+        "default": "./dist/capawesome/text-interaction/index.cjs"
+      }
+    },
+    "./capawesome/text-zoom": {
+      "import": {
+        "types": "./dist/capawesome/text-zoom/index.d.ts",
+        "default": "./dist/capawesome/text-zoom/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/text-zoom/index.d.cts",
+        "default": "./dist/capawesome/text-zoom/index.cjs"
+      }
+    },
+    "./capawesome/thermal-state": {
+      "import": {
+        "types": "./dist/capawesome/thermal-state/index.d.ts",
+        "default": "./dist/capawesome/thermal-state/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/thermal-state/index.d.cts",
+        "default": "./dist/capawesome/thermal-state/index.cjs"
+      }
+    },
+    "./capawesome/toast": {
+      "import": {
+        "types": "./dist/capawesome/toast/index.d.ts",
+        "default": "./dist/capawesome/toast/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/toast/index.d.cts",
+        "default": "./dist/capawesome/toast/index.cjs"
+      }
+    },
+    "./capawesome/torch": {
+      "import": {
+        "types": "./dist/capawesome/torch/index.d.ts",
+        "default": "./dist/capawesome/torch/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/torch/index.d.cts",
+        "default": "./dist/capawesome/torch/index.cjs"
+      }
+    },
+    "./capawesome/volume": {
+      "import": {
+        "types": "./dist/capawesome/volume/index.d.ts",
+        "default": "./dist/capawesome/volume/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/volume/index.d.cts",
+        "default": "./dist/capawesome/volume/index.cjs"
+      }
+    },
+    "./capawesome/wallet": {
+      "import": {
+        "types": "./dist/capawesome/wallet/index.d.ts",
+        "default": "./dist/capawesome/wallet/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/wallet/index.d.cts",
+        "default": "./dist/capawesome/wallet/index.cjs"
+      }
+    },
+    "./capawesome/youtube-player": {
+      "import": {
+        "types": "./dist/capawesome/youtube-player/index.d.ts",
+        "default": "./dist/capawesome/youtube-player/index.js"
+      },
+      "require": {
+        "types": "./dist/capawesome/youtube-player/index.d.cts",
+        "default": "./dist/capawesome/youtube-player/index.cjs"
+      }
+    },
     "./firebase/authentication": {
       "import": {
         "types": "./dist/firebase/authentication/index.d.ts",
@@ -410,7 +1300,7 @@
     }
   },
   "scripts": {
-    "build": "node scripts/update-exports.mjs && NODE_OPTIONS=--max-old-space-size=8192 tsup",
+    "build": "node scripts/update-exports.mjs && node scripts/build.mjs",
     "lint": "eslint src test --ext .ts,.tsx && tsc --noEmit",
     "test": "vitest run",
     "fmt": "prettier --write .",
@@ -454,6 +1344,95 @@
     "@capacitor/status-bar": "^8.0.0",
     "@capacitor/text-zoom": "^8.0.0",
     "@capacitor/toast": "^8.0.0",
+    "@capawesome-team/capacitor-android-battery-optimization": "^8.0.0",
+    "@capawesome-team/capacitor-android-foreground-service": "^8.0.0",
+    "@capawesome-team/capacitor-datetime-picker": "^8.0.0",
+    "@capawesome-team/capacitor-file-opener": "^8.0.0",
+    "@capawesome/capacitor-accessibility-preferences": "^0.0.0",
+    "@capawesome/capacitor-action-sheet": "^0.0.0",
+    "@capawesome/capacitor-age-signals": "^0.0.0",
+    "@capawesome/capacitor-alarm": "^0.0.0",
+    "@capawesome/capacitor-android-edge-to-edge-support": "^8.0.0",
+    "@capawesome/capacitor-android-intent-launcher": "^0.0.0",
+    "@capawesome/capacitor-android-sms-retriever": "^0.0.0",
+    "@capawesome/capacitor-app-icon": "^0.0.0",
+    "@capawesome/capacitor-app-integrity": "^0.0.0",
+    "@capawesome/capacitor-app-language": "^0.0.0",
+    "@capawesome/capacitor-app-launcher": "^0.0.0",
+    "@capawesome/capacitor-app-review": "^8.0.0",
+    "@capawesome/capacitor-app-shortcuts": "^8.0.0",
+    "@capawesome/capacitor-app-tracking-transparency": "^0.0.0",
+    "@capawesome/capacitor-app-update": "^8.0.0",
+    "@capawesome/capacitor-apple-sign-in": "^0.0.0",
+    "@capawesome/capacitor-asset-manager": "^8.0.0",
+    "@capawesome/capacitor-audio-session": "^0.0.0",
+    "@capawesome/capacitor-background-task": "^8.0.0",
+    "@capawesome/capacitor-badge": "^8.0.0",
+    "@capawesome/capacitor-battery": "^0.0.0",
+    "@capawesome/capacitor-clipboard": "^0.0.0",
+    "@capawesome/capacitor-cloudinary": "^8.0.0",
+    "@capawesome/capacitor-compass": "^0.0.0",
+    "@capawesome/capacitor-crisp": "^0.0.0",
+    "@capawesome/capacitor-device-info": "^0.0.0",
+    "@capawesome/capacitor-dialog": "^0.0.0",
+    "@capawesome/capacitor-exif": "^0.0.0",
+    "@capawesome/capacitor-facebook-sign-in": "^0.0.0",
+    "@capawesome/capacitor-file-picker": "^8.0.0",
+    "@capawesome/capacitor-formbricks": "^0.0.0",
+    "@capawesome/capacitor-google-sign-in": "^0.0.0",
+    "@capawesome/capacitor-grafana-faro": "^0.0.0",
+    "@capawesome/capacitor-gyroscope": "^0.0.0",
+    "@capawesome/capacitor-haptics": "^0.0.0",
+    "@capawesome/capacitor-home-indicator": "^0.0.0",
+    "@capawesome/capacitor-in-app-browser": "^0.0.0",
+    "@capawesome/capacitor-install-referrer": "^0.0.0",
+    "@capawesome/capacitor-intercom": "^0.0.0",
+    "@capawesome/capacitor-intune": "^0.0.0",
+    "@capawesome/capacitor-keep-awake": "^0.0.0",
+    "@capawesome/capacitor-libsql": "^0.0.0",
+    "@capawesome/capacitor-light-sensor": "^0.0.0",
+    "@capawesome/capacitor-live-update": "^8.0.0",
+    "@capawesome/capacitor-localization": "^0.0.0",
+    "@capawesome/capacitor-mail-composer": "^0.0.0",
+    "@capawesome/capacitor-managed-configurations": "^8.0.0",
+    "@capawesome/capacitor-maps-launcher": "^0.0.0",
+    "@capawesome/capacitor-navigation-bar": "^8.0.0",
+    "@capawesome/capacitor-network": "^0.0.0",
+    "@capawesome/capacitor-nodejs": "^0.0.0",
+    "@capawesome/capacitor-passkeys": "^0.0.0",
+    "@capawesome/capacitor-password-autofill": "^0.0.0",
+    "@capawesome/capacitor-pdf-generator": "^0.0.0",
+    "@capawesome/capacitor-pdf-viewer": "^0.0.0",
+    "@capawesome/capacitor-permissions": "^0.0.0",
+    "@capawesome/capacitor-phone-dialer": "^0.0.0",
+    "@capawesome/capacitor-photo-editor": "^8.0.0",
+    "@capawesome/capacitor-photo-manipulator": "^0.0.0",
+    "@capawesome/capacitor-pixlive": "^0.0.0",
+    "@capawesome/capacitor-posthog": "^8.0.0",
+    "@capawesome/capacitor-privacy-screen": "^0.0.0",
+    "@capawesome/capacitor-proximity-sensor": "^0.0.0",
+    "@capawesome/capacitor-realtimekit": "^0.0.0",
+    "@capawesome/capacitor-root-detection": "^0.0.0",
+    "@capawesome/capacitor-screen-brightness": "^0.0.0",
+    "@capawesome/capacitor-screen-orientation": "^8.0.0",
+    "@capawesome/capacitor-screen-reader": "^0.0.0",
+    "@capawesome/capacitor-screenshot": "^8.0.0",
+    "@capawesome/capacitor-settings-launcher": "^0.0.0",
+    "@capawesome/capacitor-shake": "^0.0.0",
+    "@capawesome/capacitor-silent-mode": "^0.0.0",
+    "@capawesome/capacitor-sim": "^0.0.0",
+    "@capawesome/capacitor-sms-composer": "^0.0.0",
+    "@capawesome/capacitor-square-mobile-payments": "^0.0.0",
+    "@capawesome/capacitor-superwall": "^0.0.0",
+    "@capawesome/capacitor-system-webview": "^0.0.0",
+    "@capawesome/capacitor-text-interaction": "^0.0.0",
+    "@capawesome/capacitor-text-zoom": "^0.0.0",
+    "@capawesome/capacitor-thermal-state": "^0.0.0",
+    "@capawesome/capacitor-toast": "^0.0.0",
+    "@capawesome/capacitor-torch": "^8.0.0",
+    "@capawesome/capacitor-volume": "^0.0.0",
+    "@capawesome/capacitor-wallet": "^0.0.0",
+    "@capawesome/capacitor-youtube-player": "^0.0.0",
     "react": "^18.0.0 || ^19.0.0"
   },
   "peerDependenciesMeta": {
@@ -564,6 +1543,273 @@
     },
     "@capacitor/toast": {
       "optional": true
+    },
+    "@capawesome-team/capacitor-android-battery-optimization": {
+      "optional": true
+    },
+    "@capawesome-team/capacitor-android-foreground-service": {
+      "optional": true
+    },
+    "@capawesome-team/capacitor-datetime-picker": {
+      "optional": true
+    },
+    "@capawesome-team/capacitor-file-opener": {
+      "optional": true
+    },
+    "@capawesome/capacitor-accessibility-preferences": {
+      "optional": true
+    },
+    "@capawesome/capacitor-action-sheet": {
+      "optional": true
+    },
+    "@capawesome/capacitor-age-signals": {
+      "optional": true
+    },
+    "@capawesome/capacitor-alarm": {
+      "optional": true
+    },
+    "@capawesome/capacitor-android-edge-to-edge-support": {
+      "optional": true
+    },
+    "@capawesome/capacitor-android-intent-launcher": {
+      "optional": true
+    },
+    "@capawesome/capacitor-android-sms-retriever": {
+      "optional": true
+    },
+    "@capawesome/capacitor-app-icon": {
+      "optional": true
+    },
+    "@capawesome/capacitor-app-integrity": {
+      "optional": true
+    },
+    "@capawesome/capacitor-app-language": {
+      "optional": true
+    },
+    "@capawesome/capacitor-app-launcher": {
+      "optional": true
+    },
+    "@capawesome/capacitor-app-review": {
+      "optional": true
+    },
+    "@capawesome/capacitor-app-shortcuts": {
+      "optional": true
+    },
+    "@capawesome/capacitor-app-tracking-transparency": {
+      "optional": true
+    },
+    "@capawesome/capacitor-app-update": {
+      "optional": true
+    },
+    "@capawesome/capacitor-apple-sign-in": {
+      "optional": true
+    },
+    "@capawesome/capacitor-asset-manager": {
+      "optional": true
+    },
+    "@capawesome/capacitor-audio-session": {
+      "optional": true
+    },
+    "@capawesome/capacitor-background-task": {
+      "optional": true
+    },
+    "@capawesome/capacitor-badge": {
+      "optional": true
+    },
+    "@capawesome/capacitor-battery": {
+      "optional": true
+    },
+    "@capawesome/capacitor-clipboard": {
+      "optional": true
+    },
+    "@capawesome/capacitor-cloudinary": {
+      "optional": true
+    },
+    "@capawesome/capacitor-compass": {
+      "optional": true
+    },
+    "@capawesome/capacitor-crisp": {
+      "optional": true
+    },
+    "@capawesome/capacitor-device-info": {
+      "optional": true
+    },
+    "@capawesome/capacitor-dialog": {
+      "optional": true
+    },
+    "@capawesome/capacitor-exif": {
+      "optional": true
+    },
+    "@capawesome/capacitor-facebook-sign-in": {
+      "optional": true
+    },
+    "@capawesome/capacitor-file-picker": {
+      "optional": true
+    },
+    "@capawesome/capacitor-formbricks": {
+      "optional": true
+    },
+    "@capawesome/capacitor-google-sign-in": {
+      "optional": true
+    },
+    "@capawesome/capacitor-grafana-faro": {
+      "optional": true
+    },
+    "@capawesome/capacitor-gyroscope": {
+      "optional": true
+    },
+    "@capawesome/capacitor-haptics": {
+      "optional": true
+    },
+    "@capawesome/capacitor-home-indicator": {
+      "optional": true
+    },
+    "@capawesome/capacitor-in-app-browser": {
+      "optional": true
+    },
+    "@capawesome/capacitor-install-referrer": {
+      "optional": true
+    },
+    "@capawesome/capacitor-intercom": {
+      "optional": true
+    },
+    "@capawesome/capacitor-intune": {
+      "optional": true
+    },
+    "@capawesome/capacitor-keep-awake": {
+      "optional": true
+    },
+    "@capawesome/capacitor-libsql": {
+      "optional": true
+    },
+    "@capawesome/capacitor-light-sensor": {
+      "optional": true
+    },
+    "@capawesome/capacitor-live-update": {
+      "optional": true
+    },
+    "@capawesome/capacitor-localization": {
+      "optional": true
+    },
+    "@capawesome/capacitor-mail-composer": {
+      "optional": true
+    },
+    "@capawesome/capacitor-managed-configurations": {
+      "optional": true
+    },
+    "@capawesome/capacitor-maps-launcher": {
+      "optional": true
+    },
+    "@capawesome/capacitor-navigation-bar": {
+      "optional": true
+    },
+    "@capawesome/capacitor-network": {
+      "optional": true
+    },
+    "@capawesome/capacitor-nodejs": {
+      "optional": true
+    },
+    "@capawesome/capacitor-passkeys": {
+      "optional": true
+    },
+    "@capawesome/capacitor-password-autofill": {
+      "optional": true
+    },
+    "@capawesome/capacitor-pdf-generator": {
+      "optional": true
+    },
+    "@capawesome/capacitor-pdf-viewer": {
+      "optional": true
+    },
+    "@capawesome/capacitor-permissions": {
+      "optional": true
+    },
+    "@capawesome/capacitor-phone-dialer": {
+      "optional": true
+    },
+    "@capawesome/capacitor-photo-editor": {
+      "optional": true
+    },
+    "@capawesome/capacitor-photo-manipulator": {
+      "optional": true
+    },
+    "@capawesome/capacitor-pixlive": {
+      "optional": true
+    },
+    "@capawesome/capacitor-posthog": {
+      "optional": true
+    },
+    "@capawesome/capacitor-privacy-screen": {
+      "optional": true
+    },
+    "@capawesome/capacitor-proximity-sensor": {
+      "optional": true
+    },
+    "@capawesome/capacitor-realtimekit": {
+      "optional": true
+    },
+    "@capawesome/capacitor-root-detection": {
+      "optional": true
+    },
+    "@capawesome/capacitor-screen-brightness": {
+      "optional": true
+    },
+    "@capawesome/capacitor-screen-orientation": {
+      "optional": true
+    },
+    "@capawesome/capacitor-screen-reader": {
+      "optional": true
+    },
+    "@capawesome/capacitor-screenshot": {
+      "optional": true
+    },
+    "@capawesome/capacitor-settings-launcher": {
+      "optional": true
+    },
+    "@capawesome/capacitor-shake": {
+      "optional": true
+    },
+    "@capawesome/capacitor-silent-mode": {
+      "optional": true
+    },
+    "@capawesome/capacitor-sim": {
+      "optional": true
+    },
+    "@capawesome/capacitor-sms-composer": {
+      "optional": true
+    },
+    "@capawesome/capacitor-square-mobile-payments": {
+      "optional": true
+    },
+    "@capawesome/capacitor-superwall": {
+      "optional": true
+    },
+    "@capawesome/capacitor-system-webview": {
+      "optional": true
+    },
+    "@capawesome/capacitor-text-interaction": {
+      "optional": true
+    },
+    "@capawesome/capacitor-text-zoom": {
+      "optional": true
+    },
+    "@capawesome/capacitor-thermal-state": {
+      "optional": true
+    },
+    "@capawesome/capacitor-toast": {
+      "optional": true
+    },
+    "@capawesome/capacitor-torch": {
+      "optional": true
+    },
+    "@capawesome/capacitor-volume": {
+      "optional": true
+    },
+    "@capawesome/capacitor-wallet": {
+      "optional": true
+    },
+    "@capawesome/capacitor-youtube-player": {
+      "optional": true
     }
   },
   "devDependencies": {
@@ -604,6 +1850,95 @@
     "@capacitor/status-bar": "8.0.3",
     "@capacitor/text-zoom": "8.0.1",
     "@capacitor/toast": "8.0.1",
+    "@capawesome-team/capacitor-android-battery-optimization": "8.0.1",
+    "@capawesome-team/capacitor-android-foreground-service": "8.1.0",
+    "@capawesome-team/capacitor-datetime-picker": "8.1.1",
+    "@capawesome-team/capacitor-file-opener": "8.0.1",
+    "@capawesome/capacitor-accessibility-preferences": "0.1.1",
+    "@capawesome/capacitor-action-sheet": "0.1.1",
+    "@capawesome/capacitor-age-signals": "0.5.0",
+    "@capawesome/capacitor-alarm": "0.1.1",
+    "@capawesome/capacitor-android-edge-to-edge-support": "8.0.8",
+    "@capawesome/capacitor-android-intent-launcher": "0.1.1",
+    "@capawesome/capacitor-android-sms-retriever": "0.1.1",
+    "@capawesome/capacitor-app-icon": "0.1.1",
+    "@capawesome/capacitor-app-integrity": "0.1.1",
+    "@capawesome/capacitor-app-language": "0.1.1",
+    "@capawesome/capacitor-app-launcher": "0.1.1",
+    "@capawesome/capacitor-app-review": "8.0.1",
+    "@capawesome/capacitor-app-shortcuts": "8.0.1",
+    "@capawesome/capacitor-app-tracking-transparency": "0.1.1",
+    "@capawesome/capacitor-app-update": "8.0.3",
+    "@capawesome/capacitor-apple-sign-in": "0.1.3",
+    "@capawesome/capacitor-asset-manager": "8.0.1",
+    "@capawesome/capacitor-audio-session": "0.1.1",
+    "@capawesome/capacitor-background-task": "8.0.2",
+    "@capawesome/capacitor-badge": "8.0.2",
+    "@capawesome/capacitor-battery": "0.1.1",
+    "@capawesome/capacitor-clipboard": "0.1.1",
+    "@capawesome/capacitor-cloudinary": "8.0.1",
+    "@capawesome/capacitor-compass": "0.1.1",
+    "@capawesome/capacitor-crisp": "0.1.0",
+    "@capawesome/capacitor-device-info": "0.1.1",
+    "@capawesome/capacitor-dialog": "0.1.1",
+    "@capawesome/capacitor-exif": "0.1.1",
+    "@capawesome/capacitor-facebook-sign-in": "0.1.0",
+    "@capawesome/capacitor-file-picker": "8.0.4",
+    "@capawesome/capacitor-formbricks": "0.1.0",
+    "@capawesome/capacitor-google-sign-in": "0.1.2",
+    "@capawesome/capacitor-grafana-faro": "0.1.1",
+    "@capawesome/capacitor-gyroscope": "0.1.1",
+    "@capawesome/capacitor-haptics": "0.1.1",
+    "@capawesome/capacitor-home-indicator": "0.1.1",
+    "@capawesome/capacitor-in-app-browser": "0.2.0",
+    "@capawesome/capacitor-install-referrer": "0.1.1",
+    "@capawesome/capacitor-intercom": "0.1.0",
+    "@capawesome/capacitor-intune": "0.1.0",
+    "@capawesome/capacitor-keep-awake": "0.1.1",
+    "@capawesome/capacitor-libsql": "0.2.2",
+    "@capawesome/capacitor-light-sensor": "0.1.1",
+    "@capawesome/capacitor-live-update": "8.4.0",
+    "@capawesome/capacitor-localization": "0.1.1",
+    "@capawesome/capacitor-mail-composer": "0.1.1",
+    "@capawesome/capacitor-managed-configurations": "8.0.1",
+    "@capawesome/capacitor-maps-launcher": "0.1.1",
+    "@capawesome/capacitor-navigation-bar": "8.0.1",
+    "@capawesome/capacitor-network": "0.1.3",
+    "@capawesome/capacitor-nodejs": "0.1.0",
+    "@capawesome/capacitor-passkeys": "0.1.1",
+    "@capawesome/capacitor-password-autofill": "0.1.1",
+    "@capawesome/capacitor-pdf-generator": "0.1.1",
+    "@capawesome/capacitor-pdf-viewer": "0.1.2",
+    "@capawesome/capacitor-permissions": "0.1.1",
+    "@capawesome/capacitor-phone-dialer": "0.1.1",
+    "@capawesome/capacitor-photo-editor": "8.0.1",
+    "@capawesome/capacitor-photo-manipulator": "0.1.1",
+    "@capawesome/capacitor-pixlive": "0.1.5",
+    "@capawesome/capacitor-posthog": "8.5.0",
+    "@capawesome/capacitor-privacy-screen": "0.1.2",
+    "@capawesome/capacitor-proximity-sensor": "0.1.1",
+    "@capawesome/capacitor-realtimekit": "0.2.1",
+    "@capawesome/capacitor-root-detection": "0.1.1",
+    "@capawesome/capacitor-screen-brightness": "0.1.1",
+    "@capawesome/capacitor-screen-orientation": "8.0.1",
+    "@capawesome/capacitor-screen-reader": "0.1.1",
+    "@capawesome/capacitor-screenshot": "8.0.1",
+    "@capawesome/capacitor-settings-launcher": "0.1.1",
+    "@capawesome/capacitor-shake": "0.1.1",
+    "@capawesome/capacitor-silent-mode": "0.1.1",
+    "@capawesome/capacitor-sim": "0.1.1",
+    "@capawesome/capacitor-sms-composer": "0.1.1",
+    "@capawesome/capacitor-square-mobile-payments": "0.1.5",
+    "@capawesome/capacitor-superwall": "0.1.3",
+    "@capawesome/capacitor-system-webview": "0.1.1",
+    "@capawesome/capacitor-text-interaction": "0.1.1",
+    "@capawesome/capacitor-text-zoom": "0.1.1",
+    "@capawesome/capacitor-thermal-state": "0.1.1",
+    "@capawesome/capacitor-toast": "0.1.1",
+    "@capawesome/capacitor-torch": "8.0.1",
+    "@capawesome/capacitor-volume": "0.1.2",
+    "@capawesome/capacitor-wallet": "0.1.1",
+    "@capawesome/capacitor-youtube-player": "0.1.0",
     "@ionic/eslint-config": "0.4.0",
     "@testing-library/dom": "10.4.0",
     "@testing-library/react": "16.3.0",
@@ -745,6 +2080,273 @@
       ],
       "capacitor/toast": [
         "./dist/capacitor/toast/index.d.ts"
+      ],
+      "capawesome/accessibility-preferences": [
+        "./dist/capawesome/accessibility-preferences/index.d.ts"
+      ],
+      "capawesome/action-sheet": [
+        "./dist/capawesome/action-sheet/index.d.ts"
+      ],
+      "capawesome/age-signals": [
+        "./dist/capawesome/age-signals/index.d.ts"
+      ],
+      "capawesome/alarm": [
+        "./dist/capawesome/alarm/index.d.ts"
+      ],
+      "capawesome/android-battery-optimization": [
+        "./dist/capawesome/android-battery-optimization/index.d.ts"
+      ],
+      "capawesome/android-edge-to-edge-support": [
+        "./dist/capawesome/android-edge-to-edge-support/index.d.ts"
+      ],
+      "capawesome/android-foreground-service": [
+        "./dist/capawesome/android-foreground-service/index.d.ts"
+      ],
+      "capawesome/android-intent-launcher": [
+        "./dist/capawesome/android-intent-launcher/index.d.ts"
+      ],
+      "capawesome/android-sms-retriever": [
+        "./dist/capawesome/android-sms-retriever/index.d.ts"
+      ],
+      "capawesome/app-icon": [
+        "./dist/capawesome/app-icon/index.d.ts"
+      ],
+      "capawesome/app-integrity": [
+        "./dist/capawesome/app-integrity/index.d.ts"
+      ],
+      "capawesome/app-language": [
+        "./dist/capawesome/app-language/index.d.ts"
+      ],
+      "capawesome/app-launcher": [
+        "./dist/capawesome/app-launcher/index.d.ts"
+      ],
+      "capawesome/app-review": [
+        "./dist/capawesome/app-review/index.d.ts"
+      ],
+      "capawesome/app-shortcuts": [
+        "./dist/capawesome/app-shortcuts/index.d.ts"
+      ],
+      "capawesome/app-tracking-transparency": [
+        "./dist/capawesome/app-tracking-transparency/index.d.ts"
+      ],
+      "capawesome/app-update": [
+        "./dist/capawesome/app-update/index.d.ts"
+      ],
+      "capawesome/apple-sign-in": [
+        "./dist/capawesome/apple-sign-in/index.d.ts"
+      ],
+      "capawesome/asset-manager": [
+        "./dist/capawesome/asset-manager/index.d.ts"
+      ],
+      "capawesome/audio-session": [
+        "./dist/capawesome/audio-session/index.d.ts"
+      ],
+      "capawesome/background-task": [
+        "./dist/capawesome/background-task/index.d.ts"
+      ],
+      "capawesome/badge": [
+        "./dist/capawesome/badge/index.d.ts"
+      ],
+      "capawesome/battery": [
+        "./dist/capawesome/battery/index.d.ts"
+      ],
+      "capawesome/clipboard": [
+        "./dist/capawesome/clipboard/index.d.ts"
+      ],
+      "capawesome/cloudinary": [
+        "./dist/capawesome/cloudinary/index.d.ts"
+      ],
+      "capawesome/compass": [
+        "./dist/capawesome/compass/index.d.ts"
+      ],
+      "capawesome/crisp": [
+        "./dist/capawesome/crisp/index.d.ts"
+      ],
+      "capawesome/datetime-picker": [
+        "./dist/capawesome/datetime-picker/index.d.ts"
+      ],
+      "capawesome/device-info": [
+        "./dist/capawesome/device-info/index.d.ts"
+      ],
+      "capawesome/dialog": [
+        "./dist/capawesome/dialog/index.d.ts"
+      ],
+      "capawesome/exif": [
+        "./dist/capawesome/exif/index.d.ts"
+      ],
+      "capawesome/facebook-sign-in": [
+        "./dist/capawesome/facebook-sign-in/index.d.ts"
+      ],
+      "capawesome/file-opener": [
+        "./dist/capawesome/file-opener/index.d.ts"
+      ],
+      "capawesome/file-picker": [
+        "./dist/capawesome/file-picker/index.d.ts"
+      ],
+      "capawesome/formbricks": [
+        "./dist/capawesome/formbricks/index.d.ts"
+      ],
+      "capawesome/google-sign-in": [
+        "./dist/capawesome/google-sign-in/index.d.ts"
+      ],
+      "capawesome/grafana-faro": [
+        "./dist/capawesome/grafana-faro/index.d.ts"
+      ],
+      "capawesome/gyroscope": [
+        "./dist/capawesome/gyroscope/index.d.ts"
+      ],
+      "capawesome/haptics": [
+        "./dist/capawesome/haptics/index.d.ts"
+      ],
+      "capawesome/home-indicator": [
+        "./dist/capawesome/home-indicator/index.d.ts"
+      ],
+      "capawesome/in-app-browser": [
+        "./dist/capawesome/in-app-browser/index.d.ts"
+      ],
+      "capawesome/install-referrer": [
+        "./dist/capawesome/install-referrer/index.d.ts"
+      ],
+      "capawesome/intercom": [
+        "./dist/capawesome/intercom/index.d.ts"
+      ],
+      "capawesome/intune": [
+        "./dist/capawesome/intune/index.d.ts"
+      ],
+      "capawesome/keep-awake": [
+        "./dist/capawesome/keep-awake/index.d.ts"
+      ],
+      "capawesome/libsql": [
+        "./dist/capawesome/libsql/index.d.ts"
+      ],
+      "capawesome/light-sensor": [
+        "./dist/capawesome/light-sensor/index.d.ts"
+      ],
+      "capawesome/live-update": [
+        "./dist/capawesome/live-update/index.d.ts"
+      ],
+      "capawesome/localization": [
+        "./dist/capawesome/localization/index.d.ts"
+      ],
+      "capawesome/mail-composer": [
+        "./dist/capawesome/mail-composer/index.d.ts"
+      ],
+      "capawesome/managed-configurations": [
+        "./dist/capawesome/managed-configurations/index.d.ts"
+      ],
+      "capawesome/maps-launcher": [
+        "./dist/capawesome/maps-launcher/index.d.ts"
+      ],
+      "capawesome/navigation-bar": [
+        "./dist/capawesome/navigation-bar/index.d.ts"
+      ],
+      "capawesome/network": [
+        "./dist/capawesome/network/index.d.ts"
+      ],
+      "capawesome/nodejs": [
+        "./dist/capawesome/nodejs/index.d.ts"
+      ],
+      "capawesome/passkeys": [
+        "./dist/capawesome/passkeys/index.d.ts"
+      ],
+      "capawesome/password-autofill": [
+        "./dist/capawesome/password-autofill/index.d.ts"
+      ],
+      "capawesome/pdf-generator": [
+        "./dist/capawesome/pdf-generator/index.d.ts"
+      ],
+      "capawesome/pdf-viewer": [
+        "./dist/capawesome/pdf-viewer/index.d.ts"
+      ],
+      "capawesome/permissions": [
+        "./dist/capawesome/permissions/index.d.ts"
+      ],
+      "capawesome/phone-dialer": [
+        "./dist/capawesome/phone-dialer/index.d.ts"
+      ],
+      "capawesome/photo-editor": [
+        "./dist/capawesome/photo-editor/index.d.ts"
+      ],
+      "capawesome/photo-manipulator": [
+        "./dist/capawesome/photo-manipulator/index.d.ts"
+      ],
+      "capawesome/pixlive": [
+        "./dist/capawesome/pixlive/index.d.ts"
+      ],
+      "capawesome/posthog": [
+        "./dist/capawesome/posthog/index.d.ts"
+      ],
+      "capawesome/privacy-screen": [
+        "./dist/capawesome/privacy-screen/index.d.ts"
+      ],
+      "capawesome/proximity-sensor": [
+        "./dist/capawesome/proximity-sensor/index.d.ts"
+      ],
+      "capawesome/realtimekit": [
+        "./dist/capawesome/realtimekit/index.d.ts"
+      ],
+      "capawesome/root-detection": [
+        "./dist/capawesome/root-detection/index.d.ts"
+      ],
+      "capawesome/screen-brightness": [
+        "./dist/capawesome/screen-brightness/index.d.ts"
+      ],
+      "capawesome/screen-orientation": [
+        "./dist/capawesome/screen-orientation/index.d.ts"
+      ],
+      "capawesome/screen-reader": [
+        "./dist/capawesome/screen-reader/index.d.ts"
+      ],
+      "capawesome/screenshot": [
+        "./dist/capawesome/screenshot/index.d.ts"
+      ],
+      "capawesome/settings-launcher": [
+        "./dist/capawesome/settings-launcher/index.d.ts"
+      ],
+      "capawesome/shake": [
+        "./dist/capawesome/shake/index.d.ts"
+      ],
+      "capawesome/silent-mode": [
+        "./dist/capawesome/silent-mode/index.d.ts"
+      ],
+      "capawesome/sim": [
+        "./dist/capawesome/sim/index.d.ts"
+      ],
+      "capawesome/sms-composer": [
+        "./dist/capawesome/sms-composer/index.d.ts"
+      ],
+      "capawesome/square-mobile-payments": [
+        "./dist/capawesome/square-mobile-payments/index.d.ts"
+      ],
+      "capawesome/superwall": [
+        "./dist/capawesome/superwall/index.d.ts"
+      ],
+      "capawesome/system-webview": [
+        "./dist/capawesome/system-webview/index.d.ts"
+      ],
+      "capawesome/text-interaction": [
+        "./dist/capawesome/text-interaction/index.d.ts"
+      ],
+      "capawesome/text-zoom": [
+        "./dist/capawesome/text-zoom/index.d.ts"
+      ],
+      "capawesome/thermal-state": [
+        "./dist/capawesome/thermal-state/index.d.ts"
+      ],
+      "capawesome/toast": [
+        "./dist/capawesome/toast/index.d.ts"
+      ],
+      "capawesome/torch": [
+        "./dist/capawesome/torch/index.d.ts"
+      ],
+      "capawesome/volume": [
+        "./dist/capawesome/volume/index.d.ts"
+      ],
+      "capawesome/wallet": [
+        "./dist/capawesome/wallet/index.d.ts"
+      ],
+      "capawesome/youtube-player": [
+        "./dist/capawesome/youtube-player/index.d.ts"
       ],
       "firebase/authentication": [
         "./dist/firebase/authentication/index.d.ts"

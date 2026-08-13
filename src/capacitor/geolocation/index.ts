@@ -15,7 +15,7 @@ export interface UseWatchPositionResult {
   error: Error | undefined;
 }
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useGeolocation = createMethodsHook('Geolocation', Geolocation, [
   'getCurrentPosition',
   'checkPermissions',

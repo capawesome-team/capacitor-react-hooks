@@ -6,7 +6,7 @@ import { createMethodsHook, useMountedRef } from '../../core';
 
 const discardError = () => undefined;
 
-/** Plugin methods plus `isAvailable`. */
+/** Plugin methods plus `isPluginAvailable`. */
 export const useDevice = createMethodsHook('Device', Device, [
   'getId',
   'getInfo',
