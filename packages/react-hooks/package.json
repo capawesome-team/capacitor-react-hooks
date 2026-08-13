@@ -41,6 +41,26 @@
         "default": "./dist/index.cjs"
       }
     },
+    "./capacitor/geolocation": {
+      "import": {
+        "types": "./dist/capacitor/geolocation/index.d.ts",
+        "default": "./dist/capacitor/geolocation/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/geolocation/index.d.cts",
+        "default": "./dist/capacitor/geolocation/index.cjs"
+      }
+    },
+    "./capacitor/keyboard": {
+      "import": {
+        "types": "./dist/capacitor/keyboard/index.d.ts",
+        "default": "./dist/capacitor/keyboard/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/keyboard/index.d.cts",
+        "default": "./dist/capacitor/keyboard/index.cjs"
+      }
+    },
     "./capacitor/network": {
       "import": {
         "types": "./dist/capacitor/network/index.d.ts",
@@ -49,6 +69,56 @@
       "require": {
         "types": "./dist/capacitor/network/index.d.cts",
         "default": "./dist/capacitor/network/index.cjs"
+      }
+    },
+    "./capacitor/preferences": {
+      "import": {
+        "types": "./dist/capacitor/preferences/index.d.ts",
+        "default": "./dist/capacitor/preferences/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/preferences/index.d.cts",
+        "default": "./dist/capacitor/preferences/index.cjs"
+      }
+    },
+    "./capacitor/push-notifications": {
+      "import": {
+        "types": "./dist/capacitor/push-notifications/index.d.ts",
+        "default": "./dist/capacitor/push-notifications/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/push-notifications/index.d.cts",
+        "default": "./dist/capacitor/push-notifications/index.cjs"
+      }
+    },
+    "./firebase/authentication": {
+      "import": {
+        "types": "./dist/firebase/authentication/index.d.ts",
+        "default": "./dist/firebase/authentication/index.js"
+      },
+      "require": {
+        "types": "./dist/firebase/authentication/index.d.cts",
+        "default": "./dist/firebase/authentication/index.cjs"
+      }
+    },
+    "./firebase/firestore": {
+      "import": {
+        "types": "./dist/firebase/firestore/index.d.ts",
+        "default": "./dist/firebase/firestore/index.js"
+      },
+      "require": {
+        "types": "./dist/firebase/firestore/index.d.cts",
+        "default": "./dist/firebase/firestore/index.cjs"
+      }
+    },
+    "./mlkit/barcode-scanning": {
+      "import": {
+        "types": "./dist/mlkit/barcode-scanning/index.d.ts",
+        "default": "./dist/mlkit/barcode-scanning/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/barcode-scanning/index.d.cts",
+        "default": "./dist/mlkit/barcode-scanning/index.cjs"
       }
     }
   },
@@ -124,7 +194,6 @@
       "react-hooks/exhaustive-deps": "error"
     }
   },
-  "prettier": "../../.prettierrc",
   "publishConfig": {
     "access": "public"
   },
@@ -133,8 +202,29 @@
   "types": "./dist/index.d.ts",
   "typesVersions": {
     "*": {
+      "capacitor/geolocation": [
+        "./dist/capacitor/geolocation/index.d.ts"
+      ],
+      "capacitor/keyboard": [
+        "./dist/capacitor/keyboard/index.d.ts"
+      ],
       "capacitor/network": [
         "./dist/capacitor/network/index.d.ts"
+      ],
+      "capacitor/preferences": [
+        "./dist/capacitor/preferences/index.d.ts"
+      ],
+      "capacitor/push-notifications": [
+        "./dist/capacitor/push-notifications/index.d.ts"
+      ],
+      "firebase/authentication": [
+        "./dist/firebase/authentication/index.d.ts"
+      ],
+      "firebase/firestore": [
+        "./dist/firebase/firestore/index.d.ts"
+      ],
+      "mlkit/barcode-scanning": [
+        "./dist/mlkit/barcode-scanning/index.d.ts"
       ]
     }
   }

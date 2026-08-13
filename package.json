@@ -1,6 +1,7 @@
 {
   "name": "capacitor-react-hooks-monorepo",
   "private": true,
+  "packageManager": "npm@11.13.0",
   "workspaces": [
     "packages/*",
     "apps/*"
