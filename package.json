@@ -38,6 +38,156 @@
         "default": "./dist/index.cjs"
       }
     },
+    "./capacitor/action-sheet": {
+      "import": {
+        "types": "./dist/capacitor/action-sheet/index.d.ts",
+        "default": "./dist/capacitor/action-sheet/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/action-sheet/index.d.cts",
+        "default": "./dist/capacitor/action-sheet/index.cjs"
+      }
+    },
+    "./capacitor/app": {
+      "import": {
+        "types": "./dist/capacitor/app/index.d.ts",
+        "default": "./dist/capacitor/app/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/app/index.d.cts",
+        "default": "./dist/capacitor/app/index.cjs"
+      }
+    },
+    "./capacitor/app-launcher": {
+      "import": {
+        "types": "./dist/capacitor/app-launcher/index.d.ts",
+        "default": "./dist/capacitor/app-launcher/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/app-launcher/index.d.cts",
+        "default": "./dist/capacitor/app-launcher/index.cjs"
+      }
+    },
+    "./capacitor/background-runner": {
+      "import": {
+        "types": "./dist/capacitor/background-runner/index.d.ts",
+        "default": "./dist/capacitor/background-runner/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/background-runner/index.d.cts",
+        "default": "./dist/capacitor/background-runner/index.cjs"
+      }
+    },
+    "./capacitor/barcode-scanner": {
+      "import": {
+        "types": "./dist/capacitor/barcode-scanner/index.d.ts",
+        "default": "./dist/capacitor/barcode-scanner/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/barcode-scanner/index.d.cts",
+        "default": "./dist/capacitor/barcode-scanner/index.cjs"
+      }
+    },
+    "./capacitor/browser": {
+      "import": {
+        "types": "./dist/capacitor/browser/index.d.ts",
+        "default": "./dist/capacitor/browser/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/browser/index.d.cts",
+        "default": "./dist/capacitor/browser/index.cjs"
+      }
+    },
+    "./capacitor/calendar": {
+      "import": {
+        "types": "./dist/capacitor/calendar/index.d.ts",
+        "default": "./dist/capacitor/calendar/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/calendar/index.d.cts",
+        "default": "./dist/capacitor/calendar/index.cjs"
+      }
+    },
+    "./capacitor/camera": {
+      "import": {
+        "types": "./dist/capacitor/camera/index.d.ts",
+        "default": "./dist/capacitor/camera/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/camera/index.d.cts",
+        "default": "./dist/capacitor/camera/index.cjs"
+      }
+    },
+    "./capacitor/clipboard": {
+      "import": {
+        "types": "./dist/capacitor/clipboard/index.d.ts",
+        "default": "./dist/capacitor/clipboard/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/clipboard/index.d.cts",
+        "default": "./dist/capacitor/clipboard/index.cjs"
+      }
+    },
+    "./capacitor/contacts": {
+      "import": {
+        "types": "./dist/capacitor/contacts/index.d.ts",
+        "default": "./dist/capacitor/contacts/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/contacts/index.d.cts",
+        "default": "./dist/capacitor/contacts/index.cjs"
+      }
+    },
+    "./capacitor/device": {
+      "import": {
+        "types": "./dist/capacitor/device/index.d.ts",
+        "default": "./dist/capacitor/device/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/device/index.d.cts",
+        "default": "./dist/capacitor/device/index.cjs"
+      }
+    },
+    "./capacitor/dialog": {
+      "import": {
+        "types": "./dist/capacitor/dialog/index.d.ts",
+        "default": "./dist/capacitor/dialog/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/dialog/index.d.cts",
+        "default": "./dist/capacitor/dialog/index.cjs"
+      }
+    },
+    "./capacitor/file-transfer": {
+      "import": {
+        "types": "./dist/capacitor/file-transfer/index.d.ts",
+        "default": "./dist/capacitor/file-transfer/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/file-transfer/index.d.cts",
+        "default": "./dist/capacitor/file-transfer/index.cjs"
+      }
+    },
+    "./capacitor/file-viewer": {
+      "import": {
+        "types": "./dist/capacitor/file-viewer/index.d.ts",
+        "default": "./dist/capacitor/file-viewer/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/file-viewer/index.d.cts",
+        "default": "./dist/capacitor/file-viewer/index.cjs"
+      }
+    },
+    "./capacitor/filesystem": {
+      "import": {
+        "types": "./dist/capacitor/filesystem/index.d.ts",
+        "default": "./dist/capacitor/filesystem/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/filesystem/index.d.cts",
+        "default": "./dist/capacitor/filesystem/index.cjs"
+      }
+    },
     "./capacitor/geolocation": {
       "import": {
         "types": "./dist/capacitor/geolocation/index.d.ts",
@@ -48,6 +198,36 @@
         "default": "./dist/capacitor/geolocation/index.cjs"
       }
     },
+    "./capacitor/google-maps": {
+      "import": {
+        "types": "./dist/capacitor/google-maps/index.d.ts",
+        "default": "./dist/capacitor/google-maps/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/google-maps/index.d.cts",
+        "default": "./dist/capacitor/google-maps/index.cjs"
+      }
+    },
+    "./capacitor/haptics": {
+      "import": {
+        "types": "./dist/capacitor/haptics/index.d.ts",
+        "default": "./dist/capacitor/haptics/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/haptics/index.d.cts",
+        "default": "./dist/capacitor/haptics/index.cjs"
+      }
+    },
+    "./capacitor/inappbrowser": {
+      "import": {
+        "types": "./dist/capacitor/inappbrowser/index.d.ts",
+        "default": "./dist/capacitor/inappbrowser/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/inappbrowser/index.d.cts",
+        "default": "./dist/capacitor/inappbrowser/index.cjs"
+      }
+    },
     "./capacitor/keyboard": {
       "import": {
         "types": "./dist/capacitor/keyboard/index.d.ts",
@@ -56,6 +236,26 @@
       "require": {
         "types": "./dist/capacitor/keyboard/index.d.cts",
         "default": "./dist/capacitor/keyboard/index.cjs"
+      }
+    },
+    "./capacitor/local-notifications": {
+      "import": {
+        "types": "./dist/capacitor/local-notifications/index.d.ts",
+        "default": "./dist/capacitor/local-notifications/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/local-notifications/index.d.cts",
+        "default": "./dist/capacitor/local-notifications/index.cjs"
+      }
+    },
+    "./capacitor/motion": {
+      "import": {
+        "types": "./dist/capacitor/motion/index.d.ts",
+        "default": "./dist/capacitor/motion/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/motion/index.d.cts",
+        "default": "./dist/capacitor/motion/index.cjs"
       }
     },
     "./capacitor/network": {
@@ -78,6 +278,16 @@
         "default": "./dist/capacitor/preferences/index.cjs"
       }
     },
+    "./capacitor/privacy-screen": {
+      "import": {
+        "types": "./dist/capacitor/privacy-screen/index.d.ts",
+        "default": "./dist/capacitor/privacy-screen/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/privacy-screen/index.d.cts",
+        "default": "./dist/capacitor/privacy-screen/index.cjs"
+      }
+    },
     "./capacitor/push-notifications": {
       "import": {
         "types": "./dist/capacitor/push-notifications/index.d.ts",
@@ -86,6 +296,86 @@
       "require": {
         "types": "./dist/capacitor/push-notifications/index.d.cts",
         "default": "./dist/capacitor/push-notifications/index.cjs"
+      }
+    },
+    "./capacitor/screen-orientation": {
+      "import": {
+        "types": "./dist/capacitor/screen-orientation/index.d.ts",
+        "default": "./dist/capacitor/screen-orientation/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/screen-orientation/index.d.cts",
+        "default": "./dist/capacitor/screen-orientation/index.cjs"
+      }
+    },
+    "./capacitor/screen-reader": {
+      "import": {
+        "types": "./dist/capacitor/screen-reader/index.d.ts",
+        "default": "./dist/capacitor/screen-reader/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/screen-reader/index.d.cts",
+        "default": "./dist/capacitor/screen-reader/index.cjs"
+      }
+    },
+    "./capacitor/share": {
+      "import": {
+        "types": "./dist/capacitor/share/index.d.ts",
+        "default": "./dist/capacitor/share/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/share/index.d.cts",
+        "default": "./dist/capacitor/share/index.cjs"
+      }
+    },
+    "./capacitor/splash-screen": {
+      "import": {
+        "types": "./dist/capacitor/splash-screen/index.d.ts",
+        "default": "./dist/capacitor/splash-screen/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/splash-screen/index.d.cts",
+        "default": "./dist/capacitor/splash-screen/index.cjs"
+      }
+    },
+    "./capacitor/status-bar": {
+      "import": {
+        "types": "./dist/capacitor/status-bar/index.d.ts",
+        "default": "./dist/capacitor/status-bar/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/status-bar/index.d.cts",
+        "default": "./dist/capacitor/status-bar/index.cjs"
+      }
+    },
+    "./capacitor/system-bars": {
+      "import": {
+        "types": "./dist/capacitor/system-bars/index.d.ts",
+        "default": "./dist/capacitor/system-bars/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/system-bars/index.d.cts",
+        "default": "./dist/capacitor/system-bars/index.cjs"
+      }
+    },
+    "./capacitor/text-zoom": {
+      "import": {
+        "types": "./dist/capacitor/text-zoom/index.d.ts",
+        "default": "./dist/capacitor/text-zoom/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/text-zoom/index.d.cts",
+        "default": "./dist/capacitor/text-zoom/index.cjs"
+      }
+    },
+    "./capacitor/toast": {
+      "import": {
+        "types": "./dist/capacitor/toast/index.d.ts",
+        "default": "./dist/capacitor/toast/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/toast/index.d.cts",
+        "default": "./dist/capacitor/toast/index.cjs"
       }
     },
     "./firebase/authentication": {
@@ -120,7 +410,7 @@
     }
   },
   "scripts": {
-    "build": "node scripts/update-exports.mjs && tsup",
+    "build": "node scripts/update-exports.mjs && NODE_OPTIONS=--max-old-space-size=8192 tsup",
     "lint": "eslint src test --ext .ts,.tsx && tsc --noEmit",
     "test": "vitest run",
     "fmt": "prettier --write .",
@@ -130,12 +420,40 @@
     "@capacitor-firebase/authentication": "^8.0.0",
     "@capacitor-firebase/firestore": "^8.0.0",
     "@capacitor-mlkit/barcode-scanning": "^8.0.0",
+    "@capacitor/action-sheet": "^8.0.0",
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/app-launcher": "^8.0.0",
+    "@capacitor/background-runner": "^3.0.0",
+    "@capacitor/barcode-scanner": "^3.0.0",
+    "@capacitor/browser": "^8.0.0",
+    "@capacitor/calendar": "^1.0.0",
+    "@capacitor/camera": "^8.0.0",
+    "@capacitor/clipboard": "^8.0.0",
+    "@capacitor/contacts": "^1.0.0",
     "@capacitor/core": ">=8.0.0",
+    "@capacitor/device": "^8.0.0",
+    "@capacitor/dialog": "^8.0.0",
+    "@capacitor/file-transfer": "^2.0.0",
+    "@capacitor/file-viewer": "^2.0.0",
+    "@capacitor/filesystem": "^8.0.0",
     "@capacitor/geolocation": "^8.0.0",
+    "@capacitor/google-maps": "^8.0.0",
+    "@capacitor/haptics": "^8.0.0",
+    "@capacitor/inappbrowser": "^4.0.0",
     "@capacitor/keyboard": "^8.0.0",
+    "@capacitor/local-notifications": "^8.0.0",
+    "@capacitor/motion": "^8.0.0",
     "@capacitor/network": "^8.0.0",
     "@capacitor/preferences": "^8.0.0",
+    "@capacitor/privacy-screen": "^2.0.0",
     "@capacitor/push-notifications": "^8.0.0",
+    "@capacitor/screen-orientation": "^8.0.0",
+    "@capacitor/screen-reader": "^8.0.0",
+    "@capacitor/share": "^8.0.0",
+    "@capacitor/splash-screen": "^8.0.0",
+    "@capacitor/status-bar": "^8.0.0",
+    "@capacitor/text-zoom": "^8.0.0",
+    "@capacitor/toast": "^8.0.0",
     "react": "^18.0.0 || ^19.0.0"
   },
   "peerDependenciesMeta": {
@@ -148,10 +466,70 @@
     "@capacitor-mlkit/barcode-scanning": {
       "optional": true
     },
+    "@capacitor/action-sheet": {
+      "optional": true
+    },
+    "@capacitor/app": {
+      "optional": true
+    },
+    "@capacitor/app-launcher": {
+      "optional": true
+    },
+    "@capacitor/background-runner": {
+      "optional": true
+    },
+    "@capacitor/barcode-scanner": {
+      "optional": true
+    },
+    "@capacitor/browser": {
+      "optional": true
+    },
+    "@capacitor/calendar": {
+      "optional": true
+    },
+    "@capacitor/camera": {
+      "optional": true
+    },
+    "@capacitor/clipboard": {
+      "optional": true
+    },
+    "@capacitor/contacts": {
+      "optional": true
+    },
+    "@capacitor/device": {
+      "optional": true
+    },
+    "@capacitor/dialog": {
+      "optional": true
+    },
+    "@capacitor/file-transfer": {
+      "optional": true
+    },
+    "@capacitor/file-viewer": {
+      "optional": true
+    },
+    "@capacitor/filesystem": {
+      "optional": true
+    },
     "@capacitor/geolocation": {
       "optional": true
     },
+    "@capacitor/google-maps": {
+      "optional": true
+    },
+    "@capacitor/haptics": {
+      "optional": true
+    },
+    "@capacitor/inappbrowser": {
+      "optional": true
+    },
     "@capacitor/keyboard": {
+      "optional": true
+    },
+    "@capacitor/local-notifications": {
+      "optional": true
+    },
+    "@capacitor/motion": {
       "optional": true
     },
     "@capacitor/network": {
@@ -160,7 +538,31 @@
     "@capacitor/preferences": {
       "optional": true
     },
+    "@capacitor/privacy-screen": {
+      "optional": true
+    },
     "@capacitor/push-notifications": {
+      "optional": true
+    },
+    "@capacitor/screen-orientation": {
+      "optional": true
+    },
+    "@capacitor/screen-reader": {
+      "optional": true
+    },
+    "@capacitor/share": {
+      "optional": true
+    },
+    "@capacitor/splash-screen": {
+      "optional": true
+    },
+    "@capacitor/status-bar": {
+      "optional": true
+    },
+    "@capacitor/text-zoom": {
+      "optional": true
+    },
+    "@capacitor/toast": {
       "optional": true
     }
   },
@@ -168,12 +570,40 @@
     "@capacitor-firebase/authentication": "8.3.0",
     "@capacitor-firebase/firestore": "8.3.0",
     "@capacitor-mlkit/barcode-scanning": "8.1.0",
+    "@capacitor/action-sheet": "8.1.1",
+    "@capacitor/app": "8.1.1",
+    "@capacitor/app-launcher": "8.0.1",
+    "@capacitor/background-runner": "3.0.0",
+    "@capacitor/barcode-scanner": "3.1.0",
+    "@capacitor/browser": "8.0.4",
+    "@capacitor/calendar": "1.0.0",
+    "@capacitor/camera": "8.2.2",
+    "@capacitor/clipboard": "8.0.1",
+    "@capacitor/contacts": "1.0.0",
     "@capacitor/core": "8.0.0",
+    "@capacitor/device": "8.0.3",
+    "@capacitor/dialog": "8.0.1",
+    "@capacitor/file-transfer": "2.0.5",
+    "@capacitor/file-viewer": "2.0.1",
+    "@capacitor/filesystem": "8.1.2",
     "@capacitor/geolocation": "8.2.1",
+    "@capacitor/google-maps": "8.0.1",
+    "@capacitor/haptics": "8.0.2",
+    "@capacitor/inappbrowser": "4.0.2",
     "@capacitor/keyboard": "8.0.5",
+    "@capacitor/local-notifications": "8.2.1",
+    "@capacitor/motion": "8.0.1",
     "@capacitor/network": "8.0.1",
     "@capacitor/preferences": "8.0.1",
+    "@capacitor/privacy-screen": "2.0.1",
     "@capacitor/push-notifications": "8.1.2",
+    "@capacitor/screen-orientation": "8.0.1",
+    "@capacitor/screen-reader": "8.0.1",
+    "@capacitor/share": "8.0.1",
+    "@capacitor/splash-screen": "8.0.2",
+    "@capacitor/status-bar": "8.0.3",
+    "@capacitor/text-zoom": "8.0.1",
+    "@capacitor/toast": "8.0.1",
     "@ionic/eslint-config": "0.4.0",
     "@testing-library/dom": "10.4.0",
     "@testing-library/react": "16.3.0",
@@ -214,11 +644,71 @@
   },
   "typesVersions": {
     "*": {
+      "capacitor/action-sheet": [
+        "./dist/capacitor/action-sheet/index.d.ts"
+      ],
+      "capacitor/app": [
+        "./dist/capacitor/app/index.d.ts"
+      ],
+      "capacitor/app-launcher": [
+        "./dist/capacitor/app-launcher/index.d.ts"
+      ],
+      "capacitor/background-runner": [
+        "./dist/capacitor/background-runner/index.d.ts"
+      ],
+      "capacitor/barcode-scanner": [
+        "./dist/capacitor/barcode-scanner/index.d.ts"
+      ],
+      "capacitor/browser": [
+        "./dist/capacitor/browser/index.d.ts"
+      ],
+      "capacitor/calendar": [
+        "./dist/capacitor/calendar/index.d.ts"
+      ],
+      "capacitor/camera": [
+        "./dist/capacitor/camera/index.d.ts"
+      ],
+      "capacitor/clipboard": [
+        "./dist/capacitor/clipboard/index.d.ts"
+      ],
+      "capacitor/contacts": [
+        "./dist/capacitor/contacts/index.d.ts"
+      ],
+      "capacitor/device": [
+        "./dist/capacitor/device/index.d.ts"
+      ],
+      "capacitor/dialog": [
+        "./dist/capacitor/dialog/index.d.ts"
+      ],
+      "capacitor/file-transfer": [
+        "./dist/capacitor/file-transfer/index.d.ts"
+      ],
+      "capacitor/file-viewer": [
+        "./dist/capacitor/file-viewer/index.d.ts"
+      ],
+      "capacitor/filesystem": [
+        "./dist/capacitor/filesystem/index.d.ts"
+      ],
       "capacitor/geolocation": [
         "./dist/capacitor/geolocation/index.d.ts"
       ],
+      "capacitor/google-maps": [
+        "./dist/capacitor/google-maps/index.d.ts"
+      ],
+      "capacitor/haptics": [
+        "./dist/capacitor/haptics/index.d.ts"
+      ],
+      "capacitor/inappbrowser": [
+        "./dist/capacitor/inappbrowser/index.d.ts"
+      ],
       "capacitor/keyboard": [
         "./dist/capacitor/keyboard/index.d.ts"
+      ],
+      "capacitor/local-notifications": [
+        "./dist/capacitor/local-notifications/index.d.ts"
+      ],
+      "capacitor/motion": [
+        "./dist/capacitor/motion/index.d.ts"
       ],
       "capacitor/network": [
         "./dist/capacitor/network/index.d.ts"
@@ -226,8 +716,35 @@
       "capacitor/preferences": [
         "./dist/capacitor/preferences/index.d.ts"
       ],
+      "capacitor/privacy-screen": [
+        "./dist/capacitor/privacy-screen/index.d.ts"
+      ],
       "capacitor/push-notifications": [
         "./dist/capacitor/push-notifications/index.d.ts"
+      ],
+      "capacitor/screen-orientation": [
+        "./dist/capacitor/screen-orientation/index.d.ts"
+      ],
+      "capacitor/screen-reader": [
+        "./dist/capacitor/screen-reader/index.d.ts"
+      ],
+      "capacitor/share": [
+        "./dist/capacitor/share/index.d.ts"
+      ],
+      "capacitor/splash-screen": [
+        "./dist/capacitor/splash-screen/index.d.ts"
+      ],
+      "capacitor/status-bar": [
+        "./dist/capacitor/status-bar/index.d.ts"
+      ],
+      "capacitor/system-bars": [
+        "./dist/capacitor/system-bars/index.d.ts"
+      ],
+      "capacitor/text-zoom": [
+        "./dist/capacitor/text-zoom/index.d.ts"
+      ],
+      "capacitor/toast": [
+        "./dist/capacitor/toast/index.d.ts"
       ],
       "firebase/authentication": [
         "./dist/firebase/authentication/index.d.ts"

@@ -77,17 +77,46 @@ createRoot(document.getElementById('root')!).render(<App />);
 
 | Subpath | Plugin |
 | --- | --- |
+| `capacitor/action-sheet` | `@capacitor/action-sheet` |
+| `capacitor/app` | `@capacitor/app` |
+| `capacitor/app-launcher` | `@capacitor/app-launcher` |
+| `capacitor/background-runner` | `@capacitor/background-runner` |
+| `capacitor/barcode-scanner` | `@capacitor/barcode-scanner` |
+| `capacitor/browser` | `@capacitor/browser` |
+| `capacitor/calendar` | `@capacitor/calendar` |
+| `capacitor/camera` | `@capacitor/camera` |
+| `capacitor/clipboard` | `@capacitor/clipboard` |
+| `capacitor/contacts` | `@capacitor/contacts` |
+| `capacitor/device` | `@capacitor/device` |
+| `capacitor/dialog` | `@capacitor/dialog` |
+| `capacitor/file-transfer` | `@capacitor/file-transfer` |
+| `capacitor/file-viewer` | `@capacitor/file-viewer` |
+| `capacitor/filesystem` | `@capacitor/filesystem` |
 | `capacitor/geolocation` | `@capacitor/geolocation` |
+| `capacitor/google-maps` | `@capacitor/google-maps` |
+| `capacitor/haptics` | `@capacitor/haptics` |
+| `capacitor/inappbrowser` | `@capacitor/inappbrowser` |
 | `capacitor/keyboard` | `@capacitor/keyboard` |
+| `capacitor/local-notifications` | `@capacitor/local-notifications` |
+| `capacitor/motion` | `@capacitor/motion` |
 | `capacitor/network` | `@capacitor/network` |
 | `capacitor/preferences` | `@capacitor/preferences` |
+| `capacitor/privacy-screen` | `@capacitor/privacy-screen` |
 | `capacitor/push-notifications` | `@capacitor/push-notifications` |
+| `capacitor/screen-orientation` | `@capacitor/screen-orientation` |
+| `capacitor/screen-reader` | `@capacitor/screen-reader` |
+| `capacitor/share` | `@capacitor/share` |
+| `capacitor/splash-screen` | `@capacitor/splash-screen` |
+| `capacitor/status-bar` | `@capacitor/status-bar` |
+| `capacitor/system-bars` | `@capacitor/core` (System Bars API) |
+| `capacitor/text-zoom` | `@capacitor/text-zoom` |
+| `capacitor/toast` | `@capacitor/toast` |
 | `firebase/authentication` | `@capacitor-firebase/authentication` |
 | `firebase/firestore` | `@capacitor-firebase/firestore` |
 | `mlkit/barcode-scanning` | `@capacitor-mlkit/barcode-scanning` |
 
-Coverage of all official, Capawesome, Capacitor Firebase and Capacitor ML Kit
-plugins is in progress.
+Coverage of the Capawesome, Capacitor Firebase and Capacitor ML Kit plugin
+families is in progress.
 
 ## Development
 

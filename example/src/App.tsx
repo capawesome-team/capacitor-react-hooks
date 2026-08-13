@@ -113,7 +113,9 @@ const BarcodeSection = () => {
         onClick={() =>
           isScanning
             ? void stop()
-            : void start().catch(caught => setError(caught instanceof Error ? caught.message : String(caught)))
+            : void start().catch((caught: unknown) =>
+                setError(caught instanceof Error ? caught.message : String(caught)),
+              )
         }
       >
         {isScanning ? 'Stop scan' : 'Start scan'}
