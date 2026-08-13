@@ -34,6 +34,9 @@ jobs:
       - name: Update npm for OIDC trusted publishing
         if: ${{ steps.release-please.outputs.release_created }}
         run: npm install -g npm@latest
+      - name: Authenticate against GitHub Packages
+        if: ${{ steps.release-please.outputs.release_created }}
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PACKAGES_TOKEN || github.token }}" >> ~/.npmrc
       - if: ${{ steps.release-please.outputs.release_created }}
         run: npm ci
       - if: ${{ steps.release-please.outputs.release_created }}
