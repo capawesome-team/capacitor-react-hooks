@@ -40,5 +40,4 @@ jobs:
         run: npm run build
       - name: Publish to npm
         if: ${{ steps.release-please.outputs.release_created }}
-        working-directory: packages/react-hooks
         run: npm publish

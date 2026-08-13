@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
-    "lint": "tsc --noEmit"
+    "build": "tsc --noEmit && vite build"
   },
   "dependencies": {
     "@capacitor-firebase/authentication": "8.3.0",
@@ -18,8 +17,7 @@
     "@capacitor/network": "8.0.1",
     "@capacitor/preferences": "8.0.1",
     "@capacitor/push-notifications": "8.1.2",
-    "@capawesome/capacitor-react-hooks": "*",
-    "firebase": "12.17.1",
+    "@capawesome/capacitor-react-hooks": "file:..",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },

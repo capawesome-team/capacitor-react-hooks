@@ -1,28 +1,243 @@
 {
-  "name": "capacitor-react-hooks-monorepo",
-  "private": true,
-  "packageManager": "npm@11.13.0",
-  "workspaces": [
-    "packages/*",
-    "apps/*"
+  "name": "@capawesome/capacitor-react-hooks",
+  "version": "0.0.0",
+  "description": "React hooks for Capacitor plugins",
+  "license": "MIT",
+  "author": "Robin Genz <mail@robingenz.dev>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capawesome-team/capacitor-react-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/capawesome-team/capacitor-react-hooks/issues"
+  },
+  "homepage": "https://capawesome.io/",
+  "keywords": [
+    "capacitor",
+    "react",
+    "hooks",
+    "plugin",
+    "mobile"
   ],
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./capacitor/geolocation": {
+      "import": {
+        "types": "./dist/capacitor/geolocation/index.d.ts",
+        "default": "./dist/capacitor/geolocation/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/geolocation/index.d.cts",
+        "default": "./dist/capacitor/geolocation/index.cjs"
+      }
+    },
+    "./capacitor/keyboard": {
+      "import": {
+        "types": "./dist/capacitor/keyboard/index.d.ts",
+        "default": "./dist/capacitor/keyboard/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/keyboard/index.d.cts",
+        "default": "./dist/capacitor/keyboard/index.cjs"
+      }
+    },
+    "./capacitor/network": {
+      "import": {
+        "types": "./dist/capacitor/network/index.d.ts",
+        "default": "./dist/capacitor/network/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/network/index.d.cts",
+        "default": "./dist/capacitor/network/index.cjs"
+      }
+    },
+    "./capacitor/preferences": {
+      "import": {
+        "types": "./dist/capacitor/preferences/index.d.ts",
+        "default": "./dist/capacitor/preferences/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/preferences/index.d.cts",
+        "default": "./dist/capacitor/preferences/index.cjs"
+      }
+    },
+    "./capacitor/push-notifications": {
+      "import": {
+        "types": "./dist/capacitor/push-notifications/index.d.ts",
+        "default": "./dist/capacitor/push-notifications/index.js"
+      },
+      "require": {
+        "types": "./dist/capacitor/push-notifications/index.d.cts",
+        "default": "./dist/capacitor/push-notifications/index.cjs"
+      }
+    },
+    "./firebase/authentication": {
+      "import": {
+        "types": "./dist/firebase/authentication/index.d.ts",
+        "default": "./dist/firebase/authentication/index.js"
+      },
+      "require": {
+        "types": "./dist/firebase/authentication/index.d.cts",
+        "default": "./dist/firebase/authentication/index.cjs"
+      }
+    },
+    "./firebase/firestore": {
+      "import": {
+        "types": "./dist/firebase/firestore/index.d.ts",
+        "default": "./dist/firebase/firestore/index.js"
+      },
+      "require": {
+        "types": "./dist/firebase/firestore/index.d.cts",
+        "default": "./dist/firebase/firestore/index.cjs"
+      }
+    },
+    "./mlkit/barcode-scanning": {
+      "import": {
+        "types": "./dist/mlkit/barcode-scanning/index.d.ts",
+        "default": "./dist/mlkit/barcode-scanning/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/barcode-scanning/index.d.cts",
+        "default": "./dist/mlkit/barcode-scanning/index.cjs"
+      }
+    }
+  },
   "scripts": {
-    "build": "turbo run build",
-    "lint": "turbo run lint",
-    "test": "turbo run test",
-    "fmt": "turbo run fmt",
+    "build": "node scripts/update-exports.mjs && tsup",
+    "lint": "eslint src test --ext .ts,.tsx && tsc --noEmit",
+    "test": "vitest run",
+    "fmt": "prettier --write .",
     "prepare": "husky"
   },
+  "peerDependencies": {
+    "@capacitor-firebase/authentication": "^8.0.0",
+    "@capacitor-firebase/firestore": "^8.0.0",
+    "@capacitor-mlkit/barcode-scanning": "^8.0.0",
+    "@capacitor/core": ">=8.0.0",
+    "@capacitor/geolocation": "^8.0.0",
+    "@capacitor/keyboard": "^8.0.0",
+    "@capacitor/network": "^8.0.0",
+    "@capacitor/preferences": "^8.0.0",
+    "@capacitor/push-notifications": "^8.0.0",
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@capacitor-firebase/authentication": {
+      "optional": true
+    },
+    "@capacitor-firebase/firestore": {
+      "optional": true
+    },
+    "@capacitor-mlkit/barcode-scanning": {
+      "optional": true
+    },
+    "@capacitor/geolocation": {
+      "optional": true
+    },
+    "@capacitor/keyboard": {
+      "optional": true
+    },
+    "@capacitor/network": {
+      "optional": true
+    },
+    "@capacitor/preferences": {
+      "optional": true
+    },
+    "@capacitor/push-notifications": {
+      "optional": true
+    }
+  },
   "devDependencies": {
+    "@capacitor-firebase/authentication": "8.3.0",
+    "@capacitor-firebase/firestore": "8.3.0",
+    "@capacitor-mlkit/barcode-scanning": "8.1.0",
+    "@capacitor/core": "8.0.0",
+    "@capacitor/geolocation": "8.2.1",
+    "@capacitor/keyboard": "8.0.5",
+    "@capacitor/network": "8.0.1",
+    "@capacitor/preferences": "8.0.1",
+    "@capacitor/push-notifications": "8.1.2",
+    "@ionic/eslint-config": "0.4.0",
+    "@testing-library/dom": "10.4.0",
+    "@testing-library/react": "16.3.0",
+    "@types/react": "19.1.8",
+    "eslint": "8.57.1",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "firebase": "12.17.1",
     "husky": "9.1.7",
+    "jsdom": "26.1.0",
     "lint-staged": "16.1.2",
     "prettier": "3.6.2",
-    "turbo": "2.10.1"
+    "publint": "0.3.12",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "tsup": "8.5.0",
+    "typescript": "5.9.2",
+    "vitest": "3.2.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@ionic/eslint-config/recommended",
+      "plugin:react-hooks/recommended"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "error"
+    }
   },
   "lint-staged": {
     "**/*.{css,html,ts,tsx,js,json,md}": "prettier --write"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "npm@11.13.0",
   "engines": {
     "node": ">=20.0.0"
+  },
+  "typesVersions": {
+    "*": {
+      "capacitor/geolocation": [
+        "./dist/capacitor/geolocation/index.d.ts"
+      ],
+      "capacitor/keyboard": [
+        "./dist/capacitor/keyboard/index.d.ts"
+      ],
+      "capacitor/network": [
+        "./dist/capacitor/network/index.d.ts"
+      ],
+      "capacitor/preferences": [
+        "./dist/capacitor/preferences/index.d.ts"
+      ],
+      "capacitor/push-notifications": [
+        "./dist/capacitor/push-notifications/index.d.ts"
+      ],
+      "firebase/authentication": [
+        "./dist/firebase/authentication/index.d.ts"
+      ],
+      "firebase/firestore": [
+        "./dist/firebase/firestore/index.d.ts"
+      ],
+      "mlkit/barcode-scanning": [
+        "./dist/mlkit/barcode-scanning/index.d.ts"
+      ]
+    }
   }
 }
