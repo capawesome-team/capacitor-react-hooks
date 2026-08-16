@@ -1618,6 +1618,36 @@
         "default": "./dist/capawesome/zip/index.cjs"
       }
     },
+    "./firebase/analytics": {
+      "import": {
+        "types": "./dist/firebase/analytics/index.d.ts",
+        "default": "./dist/firebase/analytics/index.js"
+      },
+      "require": {
+        "types": "./dist/firebase/analytics/index.d.cts",
+        "default": "./dist/firebase/analytics/index.cjs"
+      }
+    },
+    "./firebase/app": {
+      "import": {
+        "types": "./dist/firebase/app/index.d.ts",
+        "default": "./dist/firebase/app/index.js"
+      },
+      "require": {
+        "types": "./dist/firebase/app/index.d.cts",
+        "default": "./dist/firebase/app/index.cjs"
+      }
+    },
+    "./firebase/app-check": {
+      "import": {
+        "types": "./dist/firebase/app-check/index.d.ts",
+        "default": "./dist/firebase/app-check/index.js"
+      },
+      "require": {
+        "types": "./dist/firebase/app-check/index.d.cts",
+        "default": "./dist/firebase/app-check/index.cjs"
+      }
+    },
     "./firebase/authentication": {
       "import": {
         "types": "./dist/firebase/authentication/index.d.ts",
@@ -1626,6 +1656,16 @@
       "require": {
         "types": "./dist/firebase/authentication/index.d.cts",
         "default": "./dist/firebase/authentication/index.cjs"
+      }
+    },
+    "./firebase/crashlytics": {
+      "import": {
+        "types": "./dist/firebase/crashlytics/index.d.ts",
+        "default": "./dist/firebase/crashlytics/index.js"
+      },
+      "require": {
+        "types": "./dist/firebase/crashlytics/index.d.cts",
+        "default": "./dist/firebase/crashlytics/index.cjs"
       }
     },
     "./firebase/firestore": {
@@ -1638,6 +1678,56 @@
         "default": "./dist/firebase/firestore/index.cjs"
       }
     },
+    "./firebase/functions": {
+      "import": {
+        "types": "./dist/firebase/functions/index.d.ts",
+        "default": "./dist/firebase/functions/index.js"
+      },
+      "require": {
+        "types": "./dist/firebase/functions/index.d.cts",
+        "default": "./dist/firebase/functions/index.cjs"
+      }
+    },
+    "./firebase/messaging": {
+      "import": {
+        "types": "./dist/firebase/messaging/index.d.ts",
+        "default": "./dist/firebase/messaging/index.js"
+      },
+      "require": {
+        "types": "./dist/firebase/messaging/index.d.cts",
+        "default": "./dist/firebase/messaging/index.cjs"
+      }
+    },
+    "./firebase/performance": {
+      "import": {
+        "types": "./dist/firebase/performance/index.d.ts",
+        "default": "./dist/firebase/performance/index.js"
+      },
+      "require": {
+        "types": "./dist/firebase/performance/index.d.cts",
+        "default": "./dist/firebase/performance/index.cjs"
+      }
+    },
+    "./firebase/remote-config": {
+      "import": {
+        "types": "./dist/firebase/remote-config/index.d.ts",
+        "default": "./dist/firebase/remote-config/index.js"
+      },
+      "require": {
+        "types": "./dist/firebase/remote-config/index.d.cts",
+        "default": "./dist/firebase/remote-config/index.cjs"
+      }
+    },
+    "./firebase/storage": {
+      "import": {
+        "types": "./dist/firebase/storage/index.d.ts",
+        "default": "./dist/firebase/storage/index.js"
+      },
+      "require": {
+        "types": "./dist/firebase/storage/index.d.cts",
+        "default": "./dist/firebase/storage/index.cjs"
+      }
+    },
     "./mlkit/barcode-scanning": {
       "import": {
         "types": "./dist/mlkit/barcode-scanning/index.d.ts",
@@ -1646,6 +1736,206 @@
       "require": {
         "types": "./dist/mlkit/barcode-scanning/index.d.cts",
         "default": "./dist/mlkit/barcode-scanning/index.cjs"
+      }
+    },
+    "./mlkit/digital-ink-recognition": {
+      "import": {
+        "types": "./dist/mlkit/digital-ink-recognition/index.d.ts",
+        "default": "./dist/mlkit/digital-ink-recognition/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/digital-ink-recognition/index.d.cts",
+        "default": "./dist/mlkit/digital-ink-recognition/index.cjs"
+      }
+    },
+    "./mlkit/document-scanner": {
+      "import": {
+        "types": "./dist/mlkit/document-scanner/index.d.ts",
+        "default": "./dist/mlkit/document-scanner/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/document-scanner/index.d.cts",
+        "default": "./dist/mlkit/document-scanner/index.cjs"
+      }
+    },
+    "./mlkit/entity-extraction": {
+      "import": {
+        "types": "./dist/mlkit/entity-extraction/index.d.ts",
+        "default": "./dist/mlkit/entity-extraction/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/entity-extraction/index.d.cts",
+        "default": "./dist/mlkit/entity-extraction/index.cjs"
+      }
+    },
+    "./mlkit/face-detection": {
+      "import": {
+        "types": "./dist/mlkit/face-detection/index.d.ts",
+        "default": "./dist/mlkit/face-detection/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/face-detection/index.d.cts",
+        "default": "./dist/mlkit/face-detection/index.cjs"
+      }
+    },
+    "./mlkit/face-mesh-detection": {
+      "import": {
+        "types": "./dist/mlkit/face-mesh-detection/index.d.ts",
+        "default": "./dist/mlkit/face-mesh-detection/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/face-mesh-detection/index.d.cts",
+        "default": "./dist/mlkit/face-mesh-detection/index.cjs"
+      }
+    },
+    "./mlkit/genai-image-description": {
+      "import": {
+        "types": "./dist/mlkit/genai-image-description/index.d.ts",
+        "default": "./dist/mlkit/genai-image-description/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/genai-image-description/index.d.cts",
+        "default": "./dist/mlkit/genai-image-description/index.cjs"
+      }
+    },
+    "./mlkit/genai-prompt": {
+      "import": {
+        "types": "./dist/mlkit/genai-prompt/index.d.ts",
+        "default": "./dist/mlkit/genai-prompt/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/genai-prompt/index.d.cts",
+        "default": "./dist/mlkit/genai-prompt/index.cjs"
+      }
+    },
+    "./mlkit/genai-proofreading": {
+      "import": {
+        "types": "./dist/mlkit/genai-proofreading/index.d.ts",
+        "default": "./dist/mlkit/genai-proofreading/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/genai-proofreading/index.d.cts",
+        "default": "./dist/mlkit/genai-proofreading/index.cjs"
+      }
+    },
+    "./mlkit/genai-rewriting": {
+      "import": {
+        "types": "./dist/mlkit/genai-rewriting/index.d.ts",
+        "default": "./dist/mlkit/genai-rewriting/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/genai-rewriting/index.d.cts",
+        "default": "./dist/mlkit/genai-rewriting/index.cjs"
+      }
+    },
+    "./mlkit/genai-speech-recognition": {
+      "import": {
+        "types": "./dist/mlkit/genai-speech-recognition/index.d.ts",
+        "default": "./dist/mlkit/genai-speech-recognition/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/genai-speech-recognition/index.d.cts",
+        "default": "./dist/mlkit/genai-speech-recognition/index.cjs"
+      }
+    },
+    "./mlkit/genai-summarization": {
+      "import": {
+        "types": "./dist/mlkit/genai-summarization/index.d.ts",
+        "default": "./dist/mlkit/genai-summarization/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/genai-summarization/index.d.cts",
+        "default": "./dist/mlkit/genai-summarization/index.cjs"
+      }
+    },
+    "./mlkit/image-labeling": {
+      "import": {
+        "types": "./dist/mlkit/image-labeling/index.d.ts",
+        "default": "./dist/mlkit/image-labeling/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/image-labeling/index.d.cts",
+        "default": "./dist/mlkit/image-labeling/index.cjs"
+      }
+    },
+    "./mlkit/language-identification": {
+      "import": {
+        "types": "./dist/mlkit/language-identification/index.d.ts",
+        "default": "./dist/mlkit/language-identification/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/language-identification/index.d.cts",
+        "default": "./dist/mlkit/language-identification/index.cjs"
+      }
+    },
+    "./mlkit/object-detection": {
+      "import": {
+        "types": "./dist/mlkit/object-detection/index.d.ts",
+        "default": "./dist/mlkit/object-detection/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/object-detection/index.d.cts",
+        "default": "./dist/mlkit/object-detection/index.cjs"
+      }
+    },
+    "./mlkit/pose-detection": {
+      "import": {
+        "types": "./dist/mlkit/pose-detection/index.d.ts",
+        "default": "./dist/mlkit/pose-detection/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/pose-detection/index.d.cts",
+        "default": "./dist/mlkit/pose-detection/index.cjs"
+      }
+    },
+    "./mlkit/selfie-segmentation": {
+      "import": {
+        "types": "./dist/mlkit/selfie-segmentation/index.d.ts",
+        "default": "./dist/mlkit/selfie-segmentation/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/selfie-segmentation/index.d.cts",
+        "default": "./dist/mlkit/selfie-segmentation/index.cjs"
+      }
+    },
+    "./mlkit/smart-reply": {
+      "import": {
+        "types": "./dist/mlkit/smart-reply/index.d.ts",
+        "default": "./dist/mlkit/smart-reply/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/smart-reply/index.d.cts",
+        "default": "./dist/mlkit/smart-reply/index.cjs"
+      }
+    },
+    "./mlkit/subject-segmentation": {
+      "import": {
+        "types": "./dist/mlkit/subject-segmentation/index.d.ts",
+        "default": "./dist/mlkit/subject-segmentation/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/subject-segmentation/index.d.cts",
+        "default": "./dist/mlkit/subject-segmentation/index.cjs"
+      }
+    },
+    "./mlkit/text-recognition": {
+      "import": {
+        "types": "./dist/mlkit/text-recognition/index.d.ts",
+        "default": "./dist/mlkit/text-recognition/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/text-recognition/index.d.cts",
+        "default": "./dist/mlkit/text-recognition/index.cjs"
+      }
+    },
+    "./mlkit/translation": {
+      "import": {
+        "types": "./dist/mlkit/translation/index.d.ts",
+        "default": "./dist/mlkit/translation/index.js"
+      },
+      "require": {
+        "types": "./dist/mlkit/translation/index.d.cts",
+        "default": "./dist/mlkit/translation/index.cjs"
       }
     }
   },
@@ -1657,9 +1947,38 @@
     "prepare": "husky"
   },
   "peerDependencies": {
+    "@capacitor-firebase/analytics": "^8.0.0",
+    "@capacitor-firebase/app": "^8.0.0",
+    "@capacitor-firebase/app-check": "^8.0.0",
     "@capacitor-firebase/authentication": "^8.0.0",
+    "@capacitor-firebase/crashlytics": "^8.0.0",
     "@capacitor-firebase/firestore": "^8.0.0",
+    "@capacitor-firebase/functions": "^8.0.0",
+    "@capacitor-firebase/messaging": "^8.0.0",
+    "@capacitor-firebase/performance": "^8.0.0",
+    "@capacitor-firebase/remote-config": "^8.0.0",
+    "@capacitor-firebase/storage": "^8.0.0",
     "@capacitor-mlkit/barcode-scanning": "^8.0.0",
+    "@capacitor-mlkit/digital-ink-recognition": "^8.0.0",
+    "@capacitor-mlkit/document-scanner": "^8.0.0",
+    "@capacitor-mlkit/entity-extraction": "^8.0.0",
+    "@capacitor-mlkit/face-detection": "^8.0.0",
+    "@capacitor-mlkit/face-mesh-detection": "^8.0.0",
+    "@capacitor-mlkit/genai-image-description": "^8.0.0",
+    "@capacitor-mlkit/genai-prompt": "^8.0.0",
+    "@capacitor-mlkit/genai-proofreading": "^8.0.0",
+    "@capacitor-mlkit/genai-rewriting": "^8.0.0",
+    "@capacitor-mlkit/genai-speech-recognition": "^8.0.0",
+    "@capacitor-mlkit/genai-summarization": "^8.0.0",
+    "@capacitor-mlkit/image-labeling": "^8.0.0",
+    "@capacitor-mlkit/language-identification": "^8.0.0",
+    "@capacitor-mlkit/object-detection": "^8.0.0",
+    "@capacitor-mlkit/pose-detection": "^8.0.0",
+    "@capacitor-mlkit/selfie-segmentation": "^8.0.0",
+    "@capacitor-mlkit/smart-reply": "^8.0.0",
+    "@capacitor-mlkit/subject-segmentation": "^8.0.0",
+    "@capacitor-mlkit/text-recognition": "^8.0.0",
+    "@capacitor-mlkit/translation": "^8.0.0",
     "@capacitor/action-sheet": "^8.0.0",
     "@capacitor/app": "^8.0.0",
     "@capacitor/app-launcher": "^8.0.0",
@@ -1821,13 +2140,100 @@
     "react": "^18.0.0 || ^19.0.0"
   },
   "peerDependenciesMeta": {
+    "@capacitor-firebase/analytics": {
+      "optional": true
+    },
+    "@capacitor-firebase/app": {
+      "optional": true
+    },
+    "@capacitor-firebase/app-check": {
+      "optional": true
+    },
     "@capacitor-firebase/authentication": {
+      "optional": true
+    },
+    "@capacitor-firebase/crashlytics": {
       "optional": true
     },
     "@capacitor-firebase/firestore": {
       "optional": true
     },
+    "@capacitor-firebase/functions": {
+      "optional": true
+    },
+    "@capacitor-firebase/messaging": {
+      "optional": true
+    },
+    "@capacitor-firebase/performance": {
+      "optional": true
+    },
+    "@capacitor-firebase/remote-config": {
+      "optional": true
+    },
+    "@capacitor-firebase/storage": {
+      "optional": true
+    },
     "@capacitor-mlkit/barcode-scanning": {
+      "optional": true
+    },
+    "@capacitor-mlkit/digital-ink-recognition": {
+      "optional": true
+    },
+    "@capacitor-mlkit/document-scanner": {
+      "optional": true
+    },
+    "@capacitor-mlkit/entity-extraction": {
+      "optional": true
+    },
+    "@capacitor-mlkit/face-detection": {
+      "optional": true
+    },
+    "@capacitor-mlkit/face-mesh-detection": {
+      "optional": true
+    },
+    "@capacitor-mlkit/genai-image-description": {
+      "optional": true
+    },
+    "@capacitor-mlkit/genai-prompt": {
+      "optional": true
+    },
+    "@capacitor-mlkit/genai-proofreading": {
+      "optional": true
+    },
+    "@capacitor-mlkit/genai-rewriting": {
+      "optional": true
+    },
+    "@capacitor-mlkit/genai-speech-recognition": {
+      "optional": true
+    },
+    "@capacitor-mlkit/genai-summarization": {
+      "optional": true
+    },
+    "@capacitor-mlkit/image-labeling": {
+      "optional": true
+    },
+    "@capacitor-mlkit/language-identification": {
+      "optional": true
+    },
+    "@capacitor-mlkit/object-detection": {
+      "optional": true
+    },
+    "@capacitor-mlkit/pose-detection": {
+      "optional": true
+    },
+    "@capacitor-mlkit/selfie-segmentation": {
+      "optional": true
+    },
+    "@capacitor-mlkit/smart-reply": {
+      "optional": true
+    },
+    "@capacitor-mlkit/subject-segmentation": {
+      "optional": true
+    },
+    "@capacitor-mlkit/text-recognition": {
+      "optional": true
+    },
+    "@capacitor-mlkit/translation": {
       "optional": true
     },
     "@capacitor/action-sheet": {
@@ -2303,9 +2709,38 @@
     }
   },
   "devDependencies": {
+    "@capacitor-firebase/analytics": "8.3.0",
+    "@capacitor-firebase/app": "8.3.0",
+    "@capacitor-firebase/app-check": "8.3.0",
     "@capacitor-firebase/authentication": "8.3.0",
+    "@capacitor-firebase/crashlytics": "8.3.0",
     "@capacitor-firebase/firestore": "8.3.0",
+    "@capacitor-firebase/functions": "8.3.0",
+    "@capacitor-firebase/messaging": "8.3.0",
+    "@capacitor-firebase/performance": "8.3.0",
+    "@capacitor-firebase/remote-config": "8.3.0",
+    "@capacitor-firebase/storage": "8.3.0",
     "@capacitor-mlkit/barcode-scanning": "8.1.0",
+    "@capacitor-mlkit/digital-ink-recognition": "8.2.0",
+    "@capacitor-mlkit/document-scanner": "8.1.0",
+    "@capacitor-mlkit/entity-extraction": "8.2.0",
+    "@capacitor-mlkit/face-detection": "8.1.0",
+    "@capacitor-mlkit/face-mesh-detection": "8.1.0",
+    "@capacitor-mlkit/genai-image-description": "8.2.0",
+    "@capacitor-mlkit/genai-prompt": "8.2.0",
+    "@capacitor-mlkit/genai-proofreading": "8.2.0",
+    "@capacitor-mlkit/genai-rewriting": "8.2.0",
+    "@capacitor-mlkit/genai-speech-recognition": "8.2.0",
+    "@capacitor-mlkit/genai-summarization": "8.2.0",
+    "@capacitor-mlkit/image-labeling": "8.2.0",
+    "@capacitor-mlkit/language-identification": "8.2.0",
+    "@capacitor-mlkit/object-detection": "8.2.0",
+    "@capacitor-mlkit/pose-detection": "8.2.0",
+    "@capacitor-mlkit/selfie-segmentation": "8.1.0",
+    "@capacitor-mlkit/smart-reply": "8.2.0",
+    "@capacitor-mlkit/subject-segmentation": "8.1.0",
+    "@capacitor-mlkit/text-recognition": "8.2.0",
+    "@capacitor-mlkit/translation": "8.1.0",
     "@capacitor/action-sheet": "8.1.1",
     "@capacitor/app": "8.1.1",
     "@capacitor/app-launcher": "8.0.1",
@@ -2978,14 +3413,101 @@
       "capawesome/zip": [
         "./dist/capawesome/zip/index.d.ts"
       ],
+      "firebase/analytics": [
+        "./dist/firebase/analytics/index.d.ts"
+      ],
+      "firebase/app": [
+        "./dist/firebase/app/index.d.ts"
+      ],
+      "firebase/app-check": [
+        "./dist/firebase/app-check/index.d.ts"
+      ],
       "firebase/authentication": [
         "./dist/firebase/authentication/index.d.ts"
+      ],
+      "firebase/crashlytics": [
+        "./dist/firebase/crashlytics/index.d.ts"
       ],
       "firebase/firestore": [
         "./dist/firebase/firestore/index.d.ts"
       ],
+      "firebase/functions": [
+        "./dist/firebase/functions/index.d.ts"
+      ],
+      "firebase/messaging": [
+        "./dist/firebase/messaging/index.d.ts"
+      ],
+      "firebase/performance": [
+        "./dist/firebase/performance/index.d.ts"
+      ],
+      "firebase/remote-config": [
+        "./dist/firebase/remote-config/index.d.ts"
+      ],
+      "firebase/storage": [
+        "./dist/firebase/storage/index.d.ts"
+      ],
       "mlkit/barcode-scanning": [
         "./dist/mlkit/barcode-scanning/index.d.ts"
+      ],
+      "mlkit/digital-ink-recognition": [
+        "./dist/mlkit/digital-ink-recognition/index.d.ts"
+      ],
+      "mlkit/document-scanner": [
+        "./dist/mlkit/document-scanner/index.d.ts"
+      ],
+      "mlkit/entity-extraction": [
+        "./dist/mlkit/entity-extraction/index.d.ts"
+      ],
+      "mlkit/face-detection": [
+        "./dist/mlkit/face-detection/index.d.ts"
+      ],
+      "mlkit/face-mesh-detection": [
+        "./dist/mlkit/face-mesh-detection/index.d.ts"
+      ],
+      "mlkit/genai-image-description": [
+        "./dist/mlkit/genai-image-description/index.d.ts"
+      ],
+      "mlkit/genai-prompt": [
+        "./dist/mlkit/genai-prompt/index.d.ts"
+      ],
+      "mlkit/genai-proofreading": [
+        "./dist/mlkit/genai-proofreading/index.d.ts"
+      ],
+      "mlkit/genai-rewriting": [
+        "./dist/mlkit/genai-rewriting/index.d.ts"
+      ],
+      "mlkit/genai-speech-recognition": [
+        "./dist/mlkit/genai-speech-recognition/index.d.ts"
+      ],
+      "mlkit/genai-summarization": [
+        "./dist/mlkit/genai-summarization/index.d.ts"
+      ],
+      "mlkit/image-labeling": [
+        "./dist/mlkit/image-labeling/index.d.ts"
+      ],
+      "mlkit/language-identification": [
+        "./dist/mlkit/language-identification/index.d.ts"
+      ],
+      "mlkit/object-detection": [
+        "./dist/mlkit/object-detection/index.d.ts"
+      ],
+      "mlkit/pose-detection": [
+        "./dist/mlkit/pose-detection/index.d.ts"
+      ],
+      "mlkit/selfie-segmentation": [
+        "./dist/mlkit/selfie-segmentation/index.d.ts"
+      ],
+      "mlkit/smart-reply": [
+        "./dist/mlkit/smart-reply/index.d.ts"
+      ],
+      "mlkit/subject-segmentation": [
+        "./dist/mlkit/subject-segmentation/index.d.ts"
+      ],
+      "mlkit/text-recognition": [
+        "./dist/mlkit/text-recognition/index.d.ts"
+      ],
+      "mlkit/translation": [
+        "./dist/mlkit/translation/index.d.ts"
       ]
     }
   }

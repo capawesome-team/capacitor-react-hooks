@@ -236,9 +236,38 @@ createRoot(document.getElementById('root')!).render(<App />);
 | `capawesome/wifi` | `@capawesome-team/capacitor-wifi` |
 | `capawesome/youtube-player` | `@capawesome/capacitor-youtube-player` |
 | `capawesome/zip` | `@capawesome-team/capacitor-zip` |
+| `firebase/analytics` | `@capacitor-firebase/analytics` |
+| `firebase/app-check` | `@capacitor-firebase/app-check` |
+| `firebase/app` | `@capacitor-firebase/app` |
 | `firebase/authentication` | `@capacitor-firebase/authentication` |
+| `firebase/crashlytics` | `@capacitor-firebase/crashlytics` |
 | `firebase/firestore` | `@capacitor-firebase/firestore` |
+| `firebase/functions` | `@capacitor-firebase/functions` |
+| `firebase/messaging` | `@capacitor-firebase/messaging` |
+| `firebase/performance` | `@capacitor-firebase/performance` |
+| `firebase/remote-config` | `@capacitor-firebase/remote-config` |
+| `firebase/storage` | `@capacitor-firebase/storage` |
 | `mlkit/barcode-scanning` | `@capacitor-mlkit/barcode-scanning` |
+| `mlkit/digital-ink-recognition` | `@capacitor-mlkit/digital-ink-recognition` |
+| `mlkit/document-scanner` | `@capacitor-mlkit/document-scanner` |
+| `mlkit/entity-extraction` | `@capacitor-mlkit/entity-extraction` |
+| `mlkit/face-detection` | `@capacitor-mlkit/face-detection` |
+| `mlkit/face-mesh-detection` | `@capacitor-mlkit/face-mesh-detection` |
+| `mlkit/genai-image-description` | `@capacitor-mlkit/genai-image-description` |
+| `mlkit/genai-prompt` | `@capacitor-mlkit/genai-prompt` |
+| `mlkit/genai-proofreading` | `@capacitor-mlkit/genai-proofreading` |
+| `mlkit/genai-rewriting` | `@capacitor-mlkit/genai-rewriting` |
+| `mlkit/genai-speech-recognition` | `@capacitor-mlkit/genai-speech-recognition` |
+| `mlkit/genai-summarization` | `@capacitor-mlkit/genai-summarization` |
+| `mlkit/image-labeling` | `@capacitor-mlkit/image-labeling` |
+| `mlkit/language-identification` | `@capacitor-mlkit/language-identification` |
+| `mlkit/object-detection` | `@capacitor-mlkit/object-detection` |
+| `mlkit/pose-detection` | `@capacitor-mlkit/pose-detection` |
+| `mlkit/selfie-segmentation` | `@capacitor-mlkit/selfie-segmentation` |
+| `mlkit/smart-reply` | `@capacitor-mlkit/smart-reply` |
+| `mlkit/subject-segmentation` | `@capacitor-mlkit/subject-segmentation` |
+| `mlkit/text-recognition` | `@capacitor-mlkit/text-recognition` |
+| `mlkit/translation` | `@capacitor-mlkit/translation` |
 <!-- coverage-table-end -->
 
 Coverage of the Capawesome, Capacitor Firebase and Capacitor ML Kit plugin
