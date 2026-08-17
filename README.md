@@ -1,5 +1,9 @@
 # @capawesome/capacitor-react-hooks
 
+[![npm version](https://img.shields.io/npm/v/@capawesome/capacitor-react-hooks)](https://www.npmjs.com/package/@capawesome/capacitor-react-hooks)
+[![npm downloads](https://img.shields.io/npm/dm/@capawesome/capacitor-react-hooks)](https://www.npmjs.com/package/@capawesome/capacitor-react-hooks)
+[![license](https://img.shields.io/npm/l/@capawesome/capacitor-react-hooks)](https://github.com/capawesome-team/capacitor-react-hooks/blob/main/LICENSE)
+
 React hooks for [Capacitor](https://capacitorjs.com/) plugins: reactive state, lifecycle-managed listeners, and permission handling for the plugin APIs you already use.
 
 ## Features
