@@ -23,8 +23,8 @@ jobs:
 
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - name: Authenticate against GitHub Packages
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PACKAGES_TOKEN }}" >> ~/.npmrc
+      - name: Configure Capawesome npm registry token
+        run: echo "//npm.registry.capawesome.io/:_authToken=${{ secrets.CAPAWESOME_NPM_REGISTRY_TOKEN }}" >> .npmrc
       - run: npm ci
       - run: npm run build
       - run: npm run lint
@@ -49,8 +49,8 @@ jobs:
 
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - name: Authenticate against GitHub Packages
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PACKAGES_TOKEN }}" >> ~/.npmrc
+      - name: Configure Capawesome npm registry token
+        run: echo "//npm.registry.capawesome.io/:_authToken=${{ secrets.CAPAWESOME_NPM_REGISTRY_TOKEN }}" >> .npmrc
       - run: npm ci
       - run: npm run build
       - run: npx pkg-pr-new publish '.'
